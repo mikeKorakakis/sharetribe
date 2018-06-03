@@ -1287,6 +1287,7 @@ en:
       is: is
       are: are
       what_do_you_need: "What are you looking for?"
+      location: "location"
       post_new_listing: "Post a new listing"
       are_offering: offer
       add_news_item: "Add an article"

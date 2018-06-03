@@ -41,6 +41,7 @@ module ListingIndexService::Search::DatabaseSearchHelper
   def needs_search?(search)
     [
       :keywords,
+      :location,# added this
       :latitude,
       :longitude,
       :distance_max,

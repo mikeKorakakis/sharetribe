@@ -98,6 +98,8 @@ class ApplicationController < ActionController::Base
 
     Maybe(@current_community).each { |community|
       @community_customization = community.community_customizations.where(locale: locale).first
+      puts locale
+      @community_customization
     }
   end
 

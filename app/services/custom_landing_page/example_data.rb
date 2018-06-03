@@ -47,7 +47,7 @@ module CustomLandingPage
       "id": "video",
       "kind": "video",
       "variation": "youtube",
-      "youtube_video_id": "UffchBUUIoI",
+      "youtube_video_id": "rmY52lmoZ4s",
       "width": "1280",
       "height": "720",
       "text": "Video section can contain one Youtube video. Click to watch!"
@@ -284,15 +284,9 @@ module CustomLandingPage
   "composition": [
     { "section": {"type": "sections", "id": "hero"}},
     { "section": {"type": "sections", "id": "markdown_support"}},
-    { "section": {"type": "sections", "id": "single_info_without_background_and_cta"}},
-    { "section": {"type": "sections", "id": "single_info_without_cta"}},
-    { "section": {"type": "sections", "id": "single_info_with_cta"}},
     { "section": {"type": "sections", "id": "single_info_with_background_and_cta"}},
     { "section": {"type": "sections", "id": "single_info_with_background_color_and_cta"}},
-    { "section": {"type": "sections", "id": "two_column_info_with_icons_and_buttons"}},
-    { "section": {"type": "sections", "id": "two_column_info_without_icons_and_buttons"}},
     { "section": {"type": "sections", "id": "three_column_info_with_icons_and_buttons"}},
-    { "section": {"type": "sections", "id": "three_column_info_without_icons_and_buttons"}},
     { "section": {"type": "sections", "id": "video"}},
     { "section": {"type": "sections", "id": "footer"}}
   ],

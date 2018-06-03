@@ -38,7 +38,7 @@
 //= require jquery.fileupload-image
 //= require autosize
 //= require regenerator-runtime/runtime
-
+//= require geocomplete
 //= require selectize-standalone.js
 //= require datepicker/bootstrap-datepicker.js
 

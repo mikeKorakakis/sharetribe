@@ -116,6 +116,19 @@ class Listing < ApplicationRecord
     self.updates_email_at ||= Time.now
   end
 
+  # geocoded_by :address
+  # after_validation :geocode
+  # after_save ThinkingSphinx::RealTime.callback_for(:listing)
+
+
+  # def latitude_in_radians
+  #   Math::PI * 2.0 / 180.0 #added this self.Location.latitude
+  # end
+
+  # def longitude_in_radians
+  #   Math::PI * 2.0 / 180.0 #added this self.Location.longitude
+  # end
+
   def uuid_object
     if self[:uuid].nil?
       nil

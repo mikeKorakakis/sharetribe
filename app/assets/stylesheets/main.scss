@@ -2104,7 +2104,7 @@ figure.fluidratio {
       vertical-align: top;
       margin-right: em(-4);
       padding: 0 em(15);
-      width: 73%;
+      width: 40%;
       display: inline;
       line-height: 40px;
       height: 42px;
@@ -2165,7 +2165,6 @@ figure.fluidratio {
 
       input[type=text] {
         @include normal-type;
-        width: 77%;
         line-height: $search-bar-height;
         height: $search-bar-height;
       }
@@ -2178,6 +2177,21 @@ figure.fluidratio {
       }
 
     }
+
+    #q {
+        width: 35%;
+        border-top-right-radius: 0;
+        border-bottom-right-radius: 0;
+        border-right: 1px dotted grey;
+    }
+    
+    #lc {
+        width: 25%;
+        border-top-left-radius: 0;
+        border-bottom-left-radius: 0;
+        border-left: 1px dotted grey;
+    }
+
 
   }
 
