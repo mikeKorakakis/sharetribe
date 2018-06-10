@@ -364,6 +364,13 @@ class PeopleController < Devise::RegistrationsController
         :display_name,
         :street_address,
         :phone_number,
+        :facebook_account,
+        :twitter_account,
+        :instagram_account,
+        :youtube_account,
+        :pinterest_account,
+        :linkedin_account,
+        :google_account,
         :image,
         :description,
         :location,
@@ -376,6 +383,7 @@ class PeopleController < Devise::RegistrationsController
         :community_id,
     ).permit!
   end
+  # added this
 
   def person_update_params(params)
     params.require(:person).permit(
@@ -384,6 +392,13 @@ class PeopleController < Devise::RegistrationsController
         :display_name,
         :street_address,
         :phone_number,
+        :facebook_account,
+        :twitter_account,
+        :instagram_account,
+        :youtube_account,
+        :pinterest_account,
+        :linkedin_account,
+        :google_account,
         :image,
         :description,
         { location: [:address, :google_address, :latitude, :longitude] },
@@ -408,6 +423,7 @@ class PeopleController < Devise::RegistrationsController
         ] }
       )
   end
+  # added this
 
   def email_not_valid(params, error_redirect_path)
     # strip trailing spaces

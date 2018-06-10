@@ -30,6 +30,8 @@
 #  family_name                        :string(255)
 #  display_name                       :string(255)
 #  phone_number                       :string(255)
+#  twitter_account                    :string(255)
+#  facebook_account                   :string(255)
 #  description                        :text(65535)
 #  image_file_name                    :string(255)
 #  image_content_type                 :string(255)

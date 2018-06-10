@@ -97,8 +97,7 @@ class ApplicationController < ActionController::Base
     @return_to = new_path
 
     Maybe(@current_community).each { |community|
-      @community_customization = community.community_customizations.where(locale: locale).first
-      puts locale
+      @community_customization = community.community_customizations.where(locale: locale).first      
       @community_customization
     }
   end

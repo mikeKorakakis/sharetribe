@@ -98,6 +98,8 @@ FactoryGirl.define do
     given_name "Proto"
     family_name "Testro"
     phone_number "0000-123456"
+    twitter_account "twitter.com/Proto"
+    facebook_account "facebook.com/Proto"
     username
     password "testi"
 

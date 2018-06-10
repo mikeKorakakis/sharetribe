@@ -14,6 +14,13 @@ module DeletePerson
             given_name: nil,
             family_name: nil,
             phone_number: nil,
+            twitter_account: nil,
+            facebook_account: nil,
+            instagram_account: nil,
+            youtube_account: nil,
+            pinterest_account: nil,
+            linkedin_account: nil,
+            google_account: nil,
             description: nil,
             facebook_id: nil,
             # To ensure user can not log in anymore we have to:
@@ -23,7 +30,7 @@ module DeletePerson
             encrypted_password: "",
             deleted: true # Flag deleted
           )
-
+#added this
           # Delete emails
           person.emails.destroy_all
 
