@@ -1,0 +1,34 @@
+{:uriI"Šfile://app/assets/javascripts/locales/eu-ES.json?type=application/json&id=671ba47e11a5ae5b599a8d7f6198282f74cbeec98f9d2db5179f34bb2d55352f:ET:load_pathI"app/assets/javascripts;T:filenameI".app/assets/javascripts/locales/eu-ES.json;T:	nameI"locales/eu-ES;T:logical_pathI"locales/eu-ES.json;T:content_typeI"application/json;T:sourceI"5{
+  "please_wait": "Itxoin mesedez...",
+  "validation_messages": {
+    "accept": "Irudiak GIF, JPG edo PNG formatuan egon behar dira.",
+    "creditcard": "Mesedez, baliozko kredito txartel zenbaki bat jar ezazu.",
+    "date": "Mesedez, baliozko data jar ezazu.",
+    "dateISO": "Mesedez, baliozko data jar ezazu (ISO).",
+    "digits": "Mesedez, bakarrik digituak jar ezazu.",
+    "email": "Mesedez, baliozko email helbidea jar ezazu.",
+    "equalTo": "Mesedez, balio bera jar ezazu berriro.",
+    "max": "Mesedez, jar ezazu {0} baino gutxiagozko edo berdinezko balio bat.",
+    "maxlength": "Mesedez, gehienez {0} karaktereak jar itzazu.",
+    "min": "Mesedez, jar ezazu {0} baino gehiagozko edo berdinezko balio bat.",
+    "minlength": "Mesedez, gutxienez {0} karaktereak jar itzazu.",
+    "number": "Mesedez, baliozko zenbaki bat jar ezazu.",
+    "range": "Mesedez, {0} eta {1} - ko balio bat jar ezazu.",
+    "rangelength": "Mesedez, {0} eta {1} karakteretako balio bat jar ezazu.",
+    "remote": "Please fix this field.",
+    "required": "This field is required.",
+    "url": "Please enter a valid URL.",
+    "address_validator": "The location was not found.",
+    "money": "You need to insert a valid monetary value.",
+    "night_selected": null,
+    "availability_range": null,
+    "min_bound": "Please enter a value less than max value ({0})",
+    "max_bound": "Please enter a value more than min value ({0})",
+    "number_no_decimals": "Please enter a whole number",
+    "number_decimals": "Please enter a valid number with either dot (.) or comma (,) as a decimal separator"
+  }
+};T:metadata{	:dependencieso:Set:
+@hash}
+I"environment-version;TTI"environment-paths;TTI"rails-env;TTI"@processors:type=application/json&file_type=application/json;TTI"<file-digest://app/assets/javascripts/locales/eu-ES.json;TTF:charsetI"
+utf-8;F:digest"%¡µƒmFßfŽ÷\s|wH²nQÅ6¯%UŒ¥ó»eÕ:lengthi5:dependencies_digest"%zÆ­ÔÀÞ€K”‰ß[8vb¬ÁþäbàÒ_¼JOÔnŽ‡:idI"E671ba47e11a5ae5b599a8d7f6198282f74cbeec98f9d2db5179f34bb2d55352f;F:
+mtimel+lY­Z

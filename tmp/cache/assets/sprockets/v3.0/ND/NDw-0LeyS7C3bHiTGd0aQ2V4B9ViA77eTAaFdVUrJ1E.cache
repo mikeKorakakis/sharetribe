@@ -1,0 +1,34 @@
+{:uriI"�file://app/assets/javascripts/locales/mn.json?type=application/json&id=5ee6ff4fa2b48197da489e80d010ee9e97058118695b8d9528e5cef4d8883544:ET:load_pathI"app/assets/javascripts;T:filenameI"+app/assets/javascripts/locales/mn.json;T:	nameI"locales/mn;T:logical_pathI"locales/mn.json;T:content_typeI"application/json;T:sourceI"�{
+  "please_wait": "Түр хүлээнэ үү ...",
+  "validation_messages": {
+    "accept": "Зургийн файл нь GIF, JPG, эсвэл PNG хэлбэрээр байх ёстой.",
+    "creditcard": "Зөв зээлийн картын дугаарыг оруулна уу.",
+    "date": "Хүчинтэй хугацааг оруулна уу.",
+    "dateISO": "Зөв хугацааг оруулна уу (ISO).",
+    "digits": "Зөвхөн цифр оруулна уу.",
+    "email": "Зөв и-мэйл хаягаа оруулна уу.",
+    "equalTo": "Дахин утгыг оруулна уу.",
+    "max": "Бага эсвэл {0} ижил утгыг оруулна уу.",
+    "maxlength": "{0}-с доош тэмдэгт оруулна уу.",
+    "min": "Илүү эсвэл {0} ижил утгыг оруулна уу.",
+    "minlength": "{0} эсвэл түүнээс дээш тэмдэгтүүдийг оруулна уу.",
+    "number": "Зөв дугаарыг оруулна уу.",
+    "range": "{0}-с {1} хооронд утга оруулна уу.",
+    "rangelength": "{0} болон {1} хооронд урттай утга оруулна уу.",
+    "remote": "Энэ хэсгийг засна уу.",
+    "required": "Энэ хэсэг шаардлагатай.",
+    "url": null,
+    "address_validator": "Байршил олдсонгүй.",
+    "money": "Та хүчинтэй мөнгөн утгыг оруулах хэрэгтэй .",
+    "night_selected": null,
+    "availability_range": null,
+    "min_bound": "Хамгийн их утга болох ({0})-с бага утга оруулна уу.",
+    "max_bound": "({0}) нь хамгийн бага утга бөгөөд үүнээс дээш утга оруулна уу.",
+    "number_no_decimals": "Бүхэл тоо оруулна уу",
+    "number_decimals": "Аравтын бутархайг тусгаарлахын тулд цэг (.) эсхүл таслал (,) аль нэгийг оруулна уу"
+  }
+};T:metadata{	:dependencieso:Set:
+@hash}
+I"environment-version;TTI"environment-paths;TTI"rails-env;TTI"@processors:type=application/json&file_type=application/json;TTI"9file-digest://app/assets/javascripts/locales/mn.json;TTF:charsetI"
+utf-8;F:digest"%z�$�Q�	]�Up��}����z��u��?�pa�:lengthi�:dependencies_digest"%����_v1��e>�uٽ�����`�ׅ<�|�[�:idI"E5ee6ff4fa2b48197da489e80d010ee9e97058118695b8d9528e5cef4d8883544;F:
+mtimel+lY�Z

@@ -1,0 +1,34 @@
+{:uriI"‡file://app/assets/javascripts/locales/hr.json?type=application/json&id=2ad0ba936ab661f3734d3a2f3c9c8e3c69362e173a001468cff9c7ab2979e4bb:ET:load_pathI"app/assets/javascripts;T:filenameI"+app/assets/javascripts/locales/hr.json;T:	nameI"locales/hr;T:logical_pathI"locales/hr.json;T:content_typeI"application/json;T:sourceI"È{
+  "please_wait": "Molim priÄekajte...",
+  "validation_messages": {
+    "accept": "Slika mora biti u GIF, JPG ili PNG formatu.",
+    "creditcard": "Molimo unesite vaÅ¾eÄ‡i broj kreditne kartice.",
+    "date": "Molimo unesite valjani datum.",
+    "dateISO": "Molimo unesite valjani datum (ISO).",
+    "digits": "Molimo unesite samo brojke.",
+    "email": "Unesite ispravnu email adresu.",
+    "equalTo": "Unesite ponovno istu vrijednost",
+    "max": "Unesite vrijednost manju ili jednaku {0}.",
+    "maxlength": "Unesite najviÅ¡e {0} znakova.",
+    "min": "Unesite vrijednost veÄ‡u ili jednaku {0}.",
+    "minlength": "Unesite barem {0} znakova.",
+    "number": "Unesite ispravan broj.",
+    "range": "Unesite vrijednost izmeÄ‘u {0} i {1}.",
+    "rangelength": "Unesite vrijednost izmeÄ‘u {0} i {1} znakova.",
+    "remote": "Uredite ovo polje.",
+    "required": "Ovo polje je obavezno.",
+    "url": "Unesite ispravni URL.",
+    "address_validator": "Lokacija nije pronaÄ‘ena.",
+    "money": "You need to insert a valid monetary value.",
+    "night_selected": "Morate odabrati barem jednu noÄ‡",
+    "availability_range": "Odabrani opseg ukljuÄuje dane koji nisu dostupni",
+    "min_bound": "Please enter a value less than max value ({0})",
+    "max_bound": "Please enter a value more than min value ({0})",
+    "number_no_decimals": "Please enter a whole number",
+    "number_decimals": "Please enter a valid number with either dot (.) or comma (,) as a decimal separator"
+  }
+};T:metadata{	:dependencieso:Set:
+@hash}
+I"environment-version;TTI"environment-paths;TTI"rails-env;TTI"@processors:type=application/json&file_type=application/json;TTI"9file-digest://app/assets/javascripts/locales/hr.json;TTF:charsetI"
+utf-8;F:digest"%áËÇ&ù“ãÛjé3ÇñY+ 8×¸‚=;m—½:lengthiÈ:dependencies_digest"%º”OÇÒÖ˜dIQSe°¡.	ƒ×&ê½Û#FÒêPo:idI"E2ad0ba936ab661f3734d3a2f3c9c8e3c69362e173a001468cff9c7ab2979e4bb;F:
+mtimel+lY­Z

@@ -1,0 +1,7 @@
+production:
+  secret_key_base: d08b0293afadc9c4f8e8c218e78e14f88ab2d3cc2b4a484d03a9b238e8b71d4db7bea3798750118699719bfb7a8979510e7f01445c394427644a2b1e70417fe9
+  stripe_private_key_pattern: "sk_(test|live)_.{24}"
+  stripe_publishable_key_pattern: "pk_(test|live)_.{24}"
+  app_encryption_key: "2617463e32b65ec6645b3cb661f9686f2ab608c18ac930ee1295a1c1170504ed"
+  google_maps_key: AIzaSyBq2-AbwLDL_8XhqDF3SIGsDa2XG-1yX4U
+  clp_static_enabled: true

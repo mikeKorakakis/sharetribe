@@ -1,0 +1,35 @@
+{:uriI"äfile://app/assets/javascripts/locales/da-DK.json?type=application/json&id=2e235ed66f05a1d691ac6753e88320c3bd1c788b5081c7e4a305396777bb5e60:ET:load_pathI"app/assets/javascripts;T:filenameI".app/assets/javascripts/locales/da-DK.json;T:	nameI"locales/da-DK;T:logical_pathI"locales/da-DK.json;T:content_typeI"application/json;T:sourceI">{
+  "please_wait": "Vent venligst...",
+  "validation_messages": {
+    "accept": "Billeder skal v√¶re af typerne GIF, JPG eller PNG.",
+    "creditcard": "Indtast et gyldigt kreditkortnummer.",
+    "date": "Indtast venligst en gyldig dato.",
+    "dateISO": "Indtast venligst en gyldig dato (ISO).",
+    "digits": "Indtast kun cifre.",
+    "email": "Indtast venligst en gyldig email.",
+    "equalTo": "Indtast venligst den samme v√¶rdi igen.",
+    "max": "Indtast venligst en v√¶rdi mindre end eller lig med {0}.",
+    "maxlength": "Angiv h√∏jst {0} tegn.",
+    "min": "Angiv en v√¶rdi st√∏rre end eller lig med {0}.",
+    "minlength": "Indtast venligst et password p√• mindst {0} tegn.",
+    "number": "Ugyldigt tal. Indtast et gyldigt antal.",
+    "range": "Indtast venligst en v√¶rdi mellem {0} og {1}.",
+    "rangelength": "Indtast venligst en v√¶rdi mellem {0} og {1} tegn.",
+    "remote": "Ret venligst dette felt.",
+    "required": "Dette felt er p√•kr√¶vet.",
+    "url": "Indtast en gyldig URL.",
+    "address_validator": "Placeringen blev ikke fundet.",
+    "money": "Du skal indtaste en gyldig pengev√¶rdi.",
+    "night_selected": "Du skal v√¶lge mindst en nat.",
+    "availability_range": "Den valgte r√¶kkevidde indeholder datoer, der ikke er tilg√¶ngelige",
+    "min_bound": "Indtast venligst en v√¶rdi mindre end eller lig med {0}.",
+    "max_bound": "Indtast venligst en v√¶rdi mere end min v√¶rdi ({0})",
+    "number_no_decimals": "Indtast venligst et helt tal",
+    "number_decimals": "Indtast venligst et gyldigt tal med enten prik (.) Eller komma (,) som en decimal separator"
+  }
+};T:metadata{	:dependencieso:Set:
+@hash}
+I"environment-version;TTI"environment-paths;TTI"rails-env;TTI"@processors:type=application/json&file_type=application/json;TTI"<file-digest://app/assets/javascripts/locales/da-DK.json;TTF:charsetI"
+utf-8;F:digest"%∞óÚIê˙˛’.ø.m+Îﬂk¬gKü·§(œ±»ﬁ
+e:lengthi>:dependencies_digest"% ®Å€3'jZ\0¿∆'Ô≥º*≈r1Kgwd‹⁄:idI"E2e235ed66f05a1d691ac6753e88320c3bd1c788b5081c7e4a305396777bb5e60;F:
+mtimel+lY≠Z

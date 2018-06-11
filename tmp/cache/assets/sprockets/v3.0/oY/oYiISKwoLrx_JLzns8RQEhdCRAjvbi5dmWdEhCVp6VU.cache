@@ -1,0 +1,34 @@
+{:uriI"�file://app/assets/javascripts/locales/he-IL.json?type=application/json&id=fdceff72bdf82c9bded5496f4cccad900d2fdbf43a5f004572392c4069e08307:ET:load_pathI"app/assets/javascripts;T:filenameI".app/assets/javascripts/locales/he-IL.json;T:	nameI"locales/he-IL;T:logical_pathI"locales/he-IL.json;T:content_typeI"application/json;T:sourceI"0{
+  "please_wait": "אנא המתן...",
+  "validation_messages": {
+    "accept": "קובץ זה חייב להיות בפורמט GIF, JPG או PNG.",
+    "creditcard": "אנא הכנס מספר כרטיס אשראי תקף.",
+    "date": "אנא הכנס תאריך תקף.",
+    "dateISO": "נא להזין תאריך חוקי",
+    "digits": "נא להזין ספרות בלבד.",
+    "email": "אנא הכנס דואר אלקטרוני תקין.",
+    "equalTo": "אנא הכנס את אותו הערך שוב.",
+    "max": "‎{0}‎ אנא הכנס ערך נמוך או שווה ל ‎",
+    "maxlength": "‎ זהו מספר מקסימלי של אותיות ‎{0}‎.",
+    "min": "‎{0}‎ אנא הכנס ערך גדול או שווה מ‎",
+    "minlength": "אותיות ‎{0}‎ אנא הכנס לפחות",
+    "number": "אנא הכנס מספר תקין.",
+    "range": "‎{1}‎ לבין ‎{0}‎ אנא הכנס ערך בין",
+    "rangelength": "‎{1}‎ לבין ‎{0}‎ אנא וודא שמספר האותיות הוא בין",
+    "remote": "אנא תקן שדה זה.",
+    "required": "שדה חובה.",
+    "url": "אנא הכנס URL תקין.",
+    "address_validator": "המיקום לא נמצא.",
+    "money": "עליך להכניס סכום תקין.",
+    "night_selected": "אנא בחר לפחות לילה אחד",
+    "availability_range": "טווח התאריכים שנבחרו אינם זמינים",
+    "min_bound": "(‎{0}‎) אנא הכנס ערך נמוך מהערך המקסימלי",
+    "max_bound": "(‎{0}‎) אנא הכנס ערך גבוה מהערך המינימלי",
+    "number_no_decimals": "אנא הכנס/י את כל המספר",
+    "number_decimals": "אנא הכנס/י מספר תקף עם נקודה (.) או פסיק (,) כתו הפרדה עשרוני."
+  }
+};T:metadata{	:dependencieso:Set:
+@hash}
+I"environment-version;TTI"environment-paths;TTI"rails-env;TTI"@processors:type=application/json&file_type=application/json;TTI"<file-digest://app/assets/javascripts/locales/he-IL.json;TTF:charsetI"
+utf-8;F:digest"%�w�w��)V��>Uh�����R�쾀2!Em:lengthi0:dependencies_digest"%��TD�����-��ku�|�wi��[�����:idI"Efdceff72bdf82c9bded5496f4cccad900d2fdbf43a5f004572392c4069e08307;F:
+mtimel+lY�Z
