@@ -66,8 +66,8 @@ class HomepageController < ApplicationController
 
     main_search = search_mode
     enabled_search_modes = search_modes_in_use(params[:q], params[:lc], main_search)
-    keyword_in_use = enabled_search_modes[:keyword]
-    location_in_use = enabled_search_modes[:location]
+    keyword_in_use = true #enabled_search_modes[:keyword]
+    location_in_use = false #enabled_search_modes[:location]
 
     current_page = Maybe(params)[:page].to_i.map { |n| n > 0 ? n : 1 }.or_else(1)
     relevant_search_fields = parse_relevant_search_fields(params, relevant_filters)
@@ -123,8 +123,9 @@ class HomepageController < ApplicationController
         search_params: CustomFieldSearchParams.remove_irrelevant_search_params(params, relevant_search_fields),
       }
 
+
       search_result.on_success { |listings|
-        @listings = listings
+        @listings = listings 
         render locals: locals.merge(
                  seo_pagination_links: seo_pagination_links(params, @listings.current_page, @listings.total_pages))
       }.on_error { |e|
@@ -159,6 +160,7 @@ class HomepageController < ApplicationController
       listing_shape_ids: Array(filter_params[:listing_shape]),
       price_cents: filter_range(params[:price_min], params[:price_max]),
       keywords: keyword_search_in_use ? params[:q] : nil,
+      location: keyword_search_in_use ? params[:lc] : nil, #added this
       fields: relevant_search_fields,
       per_page: listings_per_page,
       page: current_page,
@@ -185,6 +187,7 @@ class HomepageController < ApplicationController
         Result::Success.new(res[:body])
       }
     else
+      
       ListingIndexService::API::Api.listings.search(
         community_id: @current_community.id,
         search: search,
@@ -205,10 +208,10 @@ class HomepageController < ApplicationController
   end
 
   def location_search_params(params, keyword_search_in_use)
-    marketplace_configuration = MarketplaceService::API::Api.configurations.get(community_id: @current_community.id).data
+    marketplace_configuration = @current_community.configuration
 
     distance = params[:distance_max].to_f
-    distance_system = marketplace_configuration ? marketplace_configuration[:distance_unit] : nil
+    distance_system = marketplace_configuration ? marketplace_configuration[:distance_unit].to_sym : nil
     distance_unit = distance_system == :metric ? :km : :miles
     limit_search_distance = marketplace_configuration ? marketplace_configuration[:limit_search_distance] : true
     distance_limit = [distance, APP_CONFIG[:external_search_distance_limit_min].to_f].max if limit_search_distance

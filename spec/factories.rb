@@ -98,6 +98,8 @@ FactoryGirl.define do
     given_name "Proto"
     family_name "Testro"
     phone_number "0000-123456"
+    twitter_account "twitter.com/Proto"
+    facebook_account "facebook.com/Proto"
     username
     password "testi"
 
@@ -141,6 +143,10 @@ FactoryGirl.define do
     community_uuid { community.uuid } # raw UUID
     starter_uuid { starter.uuid } # raw UUID
     listing_author_uuid { listing.author.uuid } # raw UUID
+    payment_process :none
+    delivery_method "none"
+    payment_gateway :none
+    availability "none"
   end
 
   factory :conversation do
@@ -201,6 +207,7 @@ FactoryGirl.define do
     slogan "Test slogan"
     description "Test description"
     currency "EUR"
+    build_association(:marketplace_configurations, as: :configuration)
 
     has_many(:community_customizations) do |community|
       FactoryGirl.build(:community_customization, community: community)
@@ -380,6 +387,7 @@ FactoryGirl.define do
   end
 
   factory :transaction_process do
+    community_id     1
     process          'preauthorize'
     author_is_seller true
   end

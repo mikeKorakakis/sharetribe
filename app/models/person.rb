@@ -30,6 +30,13 @@
 #  family_name                        :string(255)
 #  display_name                       :string(255)
 #  phone_number                       :string(255)
+#  twitter_account                    :string(255)
+#  facebook_account                   :string(255)
+#  instagram_account                  :string(255)
+#  youtube_account                    :string(255)
+#  pinterest_account                  :string(255)
+#  linkedin_account                   :string(255)
+#  google_account                     :string(255)
 #  description                        :text(65535)
 #  image_file_name                    :string(255)
 #  image_content_type                 :string(255)
@@ -67,6 +74,7 @@ class Person < ApplicationRecord
 
   include ErrorsHelper
   include ApplicationHelper
+  include DeletePerson
 
   self.primary_key = "id"
 
@@ -147,11 +155,18 @@ class Person < ApplicationRecord
   serialize :preferences
 
   validates_length_of :phone_number, :maximum => 25, :allow_nil => true, :allow_blank => true
+  validates_length_of :twitter_account, :maximum => 50, :allow_nil => true, :allow_blank => true
+  validates_length_of :facebook_account, :maximum => 50, :allow_nil => true, :allow_blank => true
+  validates_length_of :instagram_account, :maximum => 50, :allow_nil => true, :allow_blank => true
+  validates_length_of :youtube_account, :maximum => 50, :allow_nil => true, :allow_blank => true
+  validates_length_of :pinterest_account, :maximum => 50, :allow_nil => true, :allow_blank => true
+  validates_length_of :linkedin_account, :maximum => 50, :allow_nil => true, :allow_blank => true
+  validates_length_of :google_account, :maximum => 50, :allow_nil => true, :allow_blank => true
   validates_length_of :username, :within => 3..20
   validates_length_of :given_name, :within => 1..30, :allow_nil => true, :allow_blank => true
   validates_length_of :family_name, :within => 1..30, :allow_nil => true, :allow_blank => true
   validates_length_of :display_name, :within => 1..30, :allow_nil => true, :allow_blank => true
-
+# added this
   validates_format_of :username,
                        :with => /\A[A-Z0-9_]*\z/i
 
@@ -443,9 +458,9 @@ class Person < ApplicationRecord
   end
 
   def profile_info_empty?
-    (phone_number.nil? || phone_number.blank?) && (description.nil? || description.blank?) && location.nil?
+    (phone_number.nil? || phone_number.blank?) && (twitter_account.nil? || twitter_account.blank?)&& (instagram_account.nil? || instagram_account.blank?)&& (youtube_account.nil? || youtube_account.blank?)&& (pinterest_account.nil? || pinterest_account.blank?)&& (linkedin_account.nil? || linkedin_account.blank?)&& (google_account.nil? || google_account.blank?)  && (facebook_account.nil? || facebook_account.blank?) &&(description.nil? || description.blank?) && location.nil?
   end
-
+# added this
   def member_of?(community)
     community.members.include?(self)
   end
@@ -620,6 +635,11 @@ class Person < ApplicationRecord
     self.legacy_encrypted_password = nil
     self.password_salt = nil
     super
+  end
+
+  def unsubscribe_from_community_updates
+    self.min_days_between_community_updates = 100000
+    self.save!
   end
 
   private

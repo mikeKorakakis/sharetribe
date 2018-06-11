@@ -1,0 +1,34 @@
+{:uriI"�file://app/assets/javascripts/locales/hu.json?type=application/json&id=e2c60d94e774b78d70293436c637b057c6e8a464c28f55af51876a5138d95c37:ET:load_pathI"app/assets/javascripts;T:filenameI"+app/assets/javascripts/locales/hu.json;T:	nameI"locales/hu;T:logical_pathI"locales/hu.json;T:content_typeI"application/json;T:sourceI"�{
+  "please_wait": "Kérjük várjon...",
+  "validation_messages": {
+    "accept": "A képnek GIF, JPG vagy PNG formátumban kell lennie.",
+    "creditcard": "Adjon meg egy érvényes hitelkártya számot.",
+    "date": "Adjon meg érvényes dátumot.",
+    "dateISO": "Adjon meg érvényes dátumot.",
+    "digits": "Kérjük csak számokat írjon be.",
+    "email": "Kérjük valós email címet adjon meg.",
+    "equalTo": "Kérjük ugyanazt írja be újra.",
+    "max": "Kérjük olyan értéket adjon meg ami kevesebb vagy egyenlő mint {0}.",
+    "maxlength": "Kérjük ne írjon be több mint {0} karaktert.",
+    "min": "Kérjük olyan értéket adjon meg ami nagyobb vagy egyenlő mint {0}.",
+    "minlength": "Kérjük írjon be legalább {0} karaktert.",
+    "number": "Kérjük valós értéket adjon meg.",
+    "range": "Kérjük olyan értéket adjon meg, amely {0} és {1} közé esik.",
+    "rangelength": "Kérjük olyan értéket adjon meg, amely {0} és {1} karakter közötti hosszúságú.",
+    "remote": "Kérjük javítsa ezt a mezőt.",
+    "required": "A mező kitöltése kötelező.",
+    "url": "Adjon meg érvényes URL-t.",
+    "address_validator": "A helyszín nem található.",
+    "money": "Kérjük adjon meg valós összeget.",
+    "night_selected": "Minimum egy éjszaka foglalása szükséges",
+    "availability_range": "A kiválasztott időszak olyan dátumokat tartalmaz ami nem elérhető",
+    "min_bound": "Kérjük adjon meg a maximális értéknél {0} kisebb értéket.",
+    "max_bound": "Kérjük adjon meg a minimális értéknél {0} nagyobb értéket.",
+    "number_no_decimals": "Kérjük adjon meg valós számot",
+    "number_decimals": "Kérjük adjon meg valós számot, ahol a tizedes választó pont (.) vagy vessző (,)."
+  }
+};T:metadata{	:dependencieso:Set:
+@hash}
+I"environment-version;TTI"environment-paths;TTI"rails-env;TTI"@processors:type=application/json&file_type=application/json;TTI"9file-digest://app/assets/javascripts/locales/hu.json;TTF:charsetI"
+utf-8;F:digest"%_l�m���h�wq���!lHk�l��jg6�T�:lengthi�:dependencies_digest"%�:��1���;�y�3`�ɢ���>FI9dP�:idI"Ee2c60d94e774b78d70293436c637b057c6e8a464c28f55af51876a5138d95c37;F:
+mtimel+lY�Z

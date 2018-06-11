@@ -15,6 +15,8 @@ describe SessionsController, "POST create", type: :controller do
                                  given_name: "Kassi",
                                  family_name: "Testperson1",
                                  phone_number: "0000-123456",
+                                 twitter_account: "twitter.com/person1",
+                                 facebook_account: "facebook.com/person1",
                                  created_at: "2012-05-04 18:17:04",
                                  community_id: community1.id)
 

@@ -30,6 +30,8 @@
 #  family_name                        :string(255)
 #  display_name                       :string(255)
 #  phone_number                       :string(255)
+#  twitter_account                    :string(255)
+#  facebook_account                   :string(255)
 #  description                        :text(65535)
 #  image_file_name                    :string(255)
 #  image_content_type                 :string(255)
@@ -111,9 +113,12 @@ describe Person, type: :model do
       it "should update the attributes" do
         @test_person.update_attributes({'given_name' => "Totti",
           'family_name' => "Tester",
-          'phone_number' => "050-55555555"})
+          'phone_number' => "050-55555555",
+          'twitter_account' => "twitter.com/person2"},
+          'facebook_account' => "facebook.com/person2"})
         expect(@test_person.family_name).to eq("Tester")
-        expect(@test_person.phone_number).to eq("050-55555555")
+        expect(@test_person.twitter_account).to eq("twitter.com/person2")
+        expect(@test_person.facebook_account).to eq("facebook.com/person2")
       end
     end
 

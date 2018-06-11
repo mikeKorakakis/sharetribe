@@ -61,6 +61,63 @@
         = t('settings.profile.invisible')
     = form.text_field :phone_number, :class => "text_field", :maxlength => "25"
 
+    -# Twitter account
+    .inline-label-container
+      = form.label :twitter_account, t("settings.profile.twitter_account"), :class => "inline"
+      %small
+        = '(will be visible to other users)'
+    = form.text_field :twitter_account, :class => "text_field", :maxlength => "50"
+
+    / added this
+
+    -# Facebook account
+    .inline-label-container
+      = form.label :facebook_account, t("settings.profile.facebook_account"), :class => "inline"
+      %small
+        = '(will be visible to other users)'
+    = form.text_field :facebook_account, :class => "text_field", :maxlength => "50"
+    / added this
+
+    -# Instagram account
+    .inline-label-container
+      = form.label :instagram_account, t("settings.profile.instagram_account"), :class => "inline"
+      %small
+        = '(will be visible to other users)'
+    = form.text_field :instagram_account, :class => "text_field", :maxlength => "50"
+    / added this
+
+    -# Youtube account
+    .inline-label-container
+      = form.label :youtube_account, t("settings.profile.youtube_account"), :class => "inline"
+      %small
+        = '(will be visible to other users)'
+    = form.text_field :youtube_account, :class => "text_field", :maxlength => "50"
+    / added this
+
+    -# Pinterest account
+    .inline-label-container
+      = form.label :pinterest_account, t("settings.profile.pinterest_account"), :class => "inline"
+      %small
+        = '(will be visible to other users)'
+    = form.text_field :pinterest_account, :class => "text_field", :maxlength => "50"
+    / added this
+
+    -# Linkedin account
+    .inline-label-container
+      = form.label :linkedin_account, t("settings.profile.linkedin_account"), :class => "inline"
+      %small
+        = '(will be visible to other users)'
+    = form.text_field :linkedin_account, :class => "text_field", :maxlength => "50"
+    / added this
+
+    -# Google account
+    .inline-label-container
+      = form.label :google_account, t("settings.profile.google_account"), :class => "inline"
+      %small
+        = '(will be visible to other users)'
+    = form.text_field :google_account, :class => "text_field", :maxlength => "50"
+    / added this
+
     -# Profile picture
     = form.label :image, t("settings.profile.profile_picture")
     = form.file_field :image, :size => 30, :id => "avatar_file"

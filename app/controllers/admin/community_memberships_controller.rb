@@ -102,6 +102,13 @@ class Admin::CommunityMembershipsController < Admin::AdminBaseController
       display_name
       username
       phone_number
+      twitter_account
+      facebook_acccount
+      instagram_account
+      youtube_account
+      pinterest_account
+      linkedin_account
+      google_account
       address
       email_address
       email_address_confirmed
@@ -111,6 +118,7 @@ class Admin::CommunityMembershipsController < Admin::AdminBaseController
       accept_emails_from_admin
       language
     }
+    # added this
     header_row.push("can_post_listings") if community.require_verification_to_post_listings
     yielder << header_row.to_csv(force_quotes: true)
     memberships.find_each do |membership|
@@ -122,12 +130,20 @@ class Admin::CommunityMembershipsController < Admin::AdminBaseController
           user.display_name,
           user.username,
           user.phone_number,
+          user.twitter_account,
+          user.instagram_account,
+          user.youtube_account,
+          user.pinterest_account,
+          user.linkedin_account,
+          user.google_account,
+          user.facebook_acccount,
           user.location ? user.location.address : "",
           membership.created_at,
           membership.status,
           membership.admin,
           user.locale
         ]
+        # added this
         user_data.push(membership.can_post_listings) if community.require_verification_to_post_listings
         user.emails.each do |email|
           accept_emails_from_admin = user.preferences["email_from_admins"] && email.send_notifications

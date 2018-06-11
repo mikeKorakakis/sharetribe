@@ -116,6 +116,19 @@ class Listing < ApplicationRecord
     self.updates_email_at ||= Time.now
   end
 
+  # geocoded_by :address
+  # after_validation :geocode
+  # after_save ThinkingSphinx::RealTime.callback_for(:listing)
+
+
+  # def latitude_in_radians
+  #   Math::PI * 2.0 / 180.0 #added this self.Location.latitude
+  # end
+
+  # def longitude_in_radians
+  #   Math::PI * 2.0 / 180.0 #added this self.Location.longitude
+  # end
+
   def uuid_object
     if self[:uuid].nil?
       nil
@@ -356,5 +369,18 @@ class Listing < ApplicationRecord
 
   def logger_metadata
     { listing_id: id }
+  end
+
+  def self.delete_by_author(author_id)
+    listings = Listing.where(author_id: author_id)
+    listings.update_all(
+      # Delete listing info
+      description: nil,
+      origin: nil,
+      open: false,
+      deleted: true
+    )
+    ids = listings.pluck(:id)
+    ListingImage.where(listing_id: ids).destroy_all
   end
 end

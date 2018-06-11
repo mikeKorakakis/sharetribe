@@ -281,10 +281,9 @@ class PeopleController < Devise::RegistrationsController
 
     # Do all delete operations in transaction. Rollback if any of them fails
     ActiveRecord::Base.transaction do
-      UserService::API::Users.delete_user(target_user.id)
-      MarketplaceService::Listing::Command.delete_listings(target_user.id)
-
-      PaypalService::API::Api.accounts.delete(community_id: target_user.community_id, person_id: target_user.id)
+      Person.delete_user(target_user.id)
+      Listing.delete_by_author(target_user.id)
+      PaypalAccount.where(person_id: target_user.id, community_id: target_user.community_id).delete_all
     end
 
     sign_out target_user
@@ -365,6 +364,13 @@ class PeopleController < Devise::RegistrationsController
         :display_name,
         :street_address,
         :phone_number,
+        :facebook_account,
+        :twitter_account,
+        :instagram_account,
+        :youtube_account,
+        :pinterest_account,
+        :linkedin_account,
+        :google_account,
         :image,
         :description,
         :location,
@@ -377,6 +383,7 @@ class PeopleController < Devise::RegistrationsController
         :community_id,
     ).permit!
   end
+  # added this
 
   def person_update_params(params)
     params.require(:person).permit(
@@ -385,6 +392,13 @@ class PeopleController < Devise::RegistrationsController
         :display_name,
         :street_address,
         :phone_number,
+        :facebook_account,
+        :twitter_account,
+        :instagram_account,
+        :youtube_account,
+        :pinterest_account,
+        :linkedin_account,
+        :google_account,
         :image,
         :description,
         { location: [:address, :google_address, :latitude, :longitude] },
@@ -409,6 +423,7 @@ class PeopleController < Devise::RegistrationsController
         ] }
       )
   end
+  # added this
 
   def email_not_valid(params, error_redirect_path)
     # strip trailing spaces

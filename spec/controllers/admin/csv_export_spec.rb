@@ -27,6 +27,8 @@ describe Admin::CommunityMembershipsController, type: :controller do
       expect(user["last_name"]).to eq(@person.family_name)
       expect(user["display_name"]).to eq(@person.display_name || "")
       expect(user["phone_number"]).to eq(@person.phone_number)
+      expect(user["twitter_account"]).to eq(@person.twitter_account)
+      expect(user["facebook_account"]).to eq(@person.facebook_account)
       expect(user["email_address"]).to eq(@person.emails.first.address)
       expect(user["status"]).to eq("accepted")
 
@@ -34,6 +36,8 @@ describe Admin::CommunityMembershipsController, type: :controller do
       expect(user2["last_name"]).to eq(@person.family_name)
       expect(user2["display_name"]).to eq(@person.display_name || "")
       expect(user2["phone_number"]).to eq(@person.phone_number)
+      expect(user2["twitter_account"]).to eq(@person.twitter_account)
+      expect(user2["facebook_account"]).to eq(@person.facebook_account)
       expect(user2["email_address"]).to eq(@other_email.address)
       expect(user2["status"]).to eq("accepted")
     end

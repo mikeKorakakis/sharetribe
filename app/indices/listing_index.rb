@@ -15,7 +15,7 @@ if APP_CONFIG.use_thinking_sphinx_indexing.to_s.casecmp("true") == 0
     indexes description
     indexes custom_field_values(:text_value), :as => :custom_text_fields
     indexes origin_loc.google_address
-
+    
     # attributes
     has id, :as => :listing_id # id didn't work without :as aliasing
     has price_cents
@@ -26,6 +26,15 @@ if APP_CONFIG.use_thinking_sphinx_indexing.to_s.casecmp("true") == 0
     has community_id
     has custom_dropdown_field_values.selected_options.id, :as => :custom_dropdown_field_options, :type => :integer, :multi => true
     has custom_checkbox_field_values.selected_options.id, :as => :custom_checkbox_field_options, :type => :integer, :multi => true
+
+
+    has location(:id), :as => :location_id
+    has "RADIANS(locations.latitude)",  :as => :latitude,  :type => :float
+    has "RADIANS(locations.longitude)", :as => :longitude, :type => :float
+    group_by 'latitude', 'longitude'
+    # set_property :latitude_attr => :latitude, :longitude_attr => :longitude
+
+
 
     set_property :enable_star => true
 

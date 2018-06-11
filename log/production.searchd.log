@@ -1,0 +1,700 @@
+[Sat Mar 17 14:25:40.670 2018] [11483] watchdog: main process 11484 forked ok
+[Sat Mar 17 14:25:40.670 2018] [11484] listening on all interfaces, port=3564
+[Sat Mar 17 14:25:40.681 2018] [11484] accepting connections
+[Sat Mar 17 14:25:40.682 2018] [11491] prereading 4 indexes
+[Sat Mar 17 14:25:40.682 2018] [11491] prereaded 4 indexes in 0.000 sec
+[Sat Mar 17 14:32:57.703 2018] [11484] caught SIGHUP (seamless=1, in_rotate=0, need_rotate=0)
+[Sat Mar 17 14:32:57.703 2018] [11484] caught SIGTERM, shutting down
+[Sat Mar 17 14:32:57.839 2018] [11484] shutdown complete
+[Sat Mar 17 15:10:37.831 2018] [3506] watchdog: main process 3507 forked ok
+[Sat Mar 17 15:10:37.833 2018] [3507] listening on all interfaces, port=3564
+[Sat Mar 17 15:10:37.897 2018] [3507] binlog: replaying log /home/mike/sharetribe/tmp/binlog/production/binlog.001
+[Sat Mar 17 15:10:37.898 2018] [3507] binlog: replay stats: 0 rows in 0 commits; 0 updates, 0 reconfigure; 0 indexes
+[Sat Mar 17 15:10:37.898 2018] [3507] binlog: finished replaying /home/mike/sharetribe/tmp/binlog/production/binlog.001; 0.0 MB in 0.000 sec
+[Sat Mar 17 15:10:37.898 2018] [3507] binlog: finished replaying total 1 in 0.001 sec
+[Sat Mar 17 15:10:37.900 2018] [3507] accepting connections
+[Sat Mar 17 15:10:37.900 2018] [3514] prereading 4 indexes
+[Sat Mar 17 15:10:37.907 2018] [3514] prereaded 4 indexes in 0.007 sec
+[Sat Mar 17 15:11:02.143 2018] [3507] caught SIGHUP (seamless=1, in_rotate=0, need_rotate=0)
+[Sat Mar 17 15:11:02.169 2018] [3508] rotating index 'listing_delta': started
+[Sat Mar 17 15:11:02.177 2018] [3508] WARNING: binlog: failed to unlink /home/mike/sharetribe/tmp/binlog/production/binlog.001: No such file or directory (remove it manually)
+[Sat Mar 17 15:11:02.178 2018] [3508] rotating index 'listing_delta': success
+[Sat Mar 17 15:11:02.178 2018] [3508] rotating index: all indexes done
+[Sat Mar 17 15:12:08.279 2018] [3507] caught SIGHUP (seamless=1, in_rotate=0, need_rotate=0)
+[Sat Mar 17 15:12:08.289 2018] [3508] rotating index 'listing_delta': started
+[Sat Mar 17 15:12:08.291 2018] [3508] rotating index 'listing_delta': success
+[Sat Mar 17 15:12:08.291 2018] [3508] rotating index: all indexes done
+[Sat Mar 17 15:17:41.842 2018] [3507] caught SIGHUP (seamless=1, in_rotate=0, need_rotate=0)
+[Sat Mar 17 15:17:41.842 2018] [3507] caught SIGTERM, shutting down
+[Sat Mar 17 15:17:41.913 2018] [3507] shutdown complete
+[Sun Mar 18 01:47:02.210 2018] [4021] watchdog: main process 4022 forked ok
+[Sun Mar 18 01:47:02.212 2018] [4022] listening on all interfaces, port=3564
+[Sun Mar 18 01:47:02.353 2018] [4022] binlog: replaying log /home/mike/sharetribe/tmp/binlog/production/binlog.001
+[Sun Mar 18 01:47:02.355 2018] [4022] binlog: replay stats: 0 rows in 0 commits; 0 updates, 0 reconfigure; 0 indexes
+[Sun Mar 18 01:47:02.355 2018] [4022] binlog: finished replaying /home/mike/sharetribe/tmp/binlog/production/binlog.001; 0.0 MB in 0.000 sec
+[Sun Mar 18 01:47:02.355 2018] [4022] binlog: finished replaying total 1 in 0.001 sec
+[Sun Mar 18 01:47:02.361 2018] [4022] accepting connections
+[Sun Mar 18 01:47:02.361 2018] [4029] prereading 4 indexes
+[Sun Mar 18 01:47:02.369 2018] [4029] prereaded 4 indexes in 0.008 sec
+[Sun Mar 18 02:03:17.536 2018] [4022] caught SIGHUP (seamless=1, in_rotate=0, need_rotate=0)
+[Sun Mar 18 02:03:17.539 2018] [4023] rotating index 'listing_delta': started
+[Sun Mar 18 02:03:17.541 2018] [4023] WARNING: binlog: failed to unlink /home/mike/sharetribe/tmp/binlog/production/binlog.001: No such file or directory (remove it manually)
+[Sun Mar 18 02:03:17.542 2018] [4023] rotating index 'listing_delta': success
+[Sun Mar 18 02:03:17.542 2018] [4023] rotating index: all indexes done
+[Sun Mar 18 02:03:18.356 2018] [4022] caught SIGHUP (seamless=1, in_rotate=0, need_rotate=0)
+[Sun Mar 18 02:03:18.400 2018] [4023] rotating index 'listing_delta': started
+[Sun Mar 18 02:03:18.402 2018] [4023] rotating index 'listing_delta': success
+[Sun Mar 18 02:03:18.402 2018] [4023] rotating index: all indexes done
+[Sun Mar 18 02:04:38.524 2018] [4022] caught SIGHUP (seamless=1, in_rotate=0, need_rotate=0)
+[Sun Mar 18 02:04:38.535 2018] [4023] rotating index 'listing_delta': started
+[Sun Mar 18 02:04:38.539 2018] [4023] rotating index 'listing_delta': success
+[Sun Mar 18 02:04:38.539 2018] [4023] rotating index: all indexes done
+[Sun Mar 18 02:04:38.626 2018] [4022] caught SIGHUP (seamless=1, in_rotate=0, need_rotate=0)
+[Sun Mar 18 02:04:38.640 2018] [4023] rotating index 'custom_field_value_delta': started
+[Sun Mar 18 02:04:38.642 2018] [4023] rotating index 'custom_field_value_delta': success
+[Sun Mar 18 02:04:38.642 2018] [4023] rotating index: all indexes done
+[Sun Mar 18 05:55:50.405 2018] [4022] caught SIGHUP (seamless=1, in_rotate=0, need_rotate=0)
+[Sun Mar 18 05:55:50.452 2018] [4023] rotating index 'custom_field_value_delta': started
+[Sun Mar 18 05:55:50.462 2018] [4023] rotating index 'custom_field_value_delta': success
+[Sun Mar 18 05:55:50.463 2018] [4023] rotating index: all indexes done
+[Sun Mar 18 06:18:18.865 2018] [4022] caught SIGHUP (seamless=1, in_rotate=0, need_rotate=0)
+[Sun Mar 18 06:18:18.890 2018] [4023] rotating index 'listing_delta': started
+[Sun Mar 18 06:18:18.898 2018] [4023] rotating index 'listing_delta': success
+[Sun Mar 18 06:18:18.898 2018] [4023] rotating index: all indexes done
+[Sun Mar 18 06:22:19.191 2018] [4022] caught SIGHUP (seamless=1, in_rotate=0, need_rotate=0)
+[Sun Mar 18 06:22:19.191 2018] [4023] rotating index 'listing_delta': started
+[Sun Mar 18 06:22:19.196 2018] [4023] rotating index 'listing_delta': success
+[Sun Mar 18 06:22:19.197 2018] [4023] rotating index: all indexes done
+[Sun Mar 18 06:22:19.379 2018] [4022] caught SIGHUP (seamless=1, in_rotate=0, need_rotate=0)
+[Sun Mar 18 06:22:19.399 2018] [4023] rotating index 'custom_field_value_delta': started
+[Sun Mar 18 06:22:19.405 2018] [4023] rotating index 'custom_field_value_delta': success
+[Sun Mar 18 06:22:19.405 2018] [4023] rotating index: all indexes done
+[Sun Mar 18 06:22:20.993 2018] [4022] caught SIGHUP (seamless=1, in_rotate=0, need_rotate=0)
+[Sun Mar 18 06:22:21.020 2018] [4023] rotating index 'listing_delta': started
+[Sun Mar 18 06:22:21.024 2018] [4023] rotating index 'listing_delta': success
+[Sun Mar 18 06:22:21.024 2018] [4023] rotating index: all indexes done
+[Sun Mar 18 14:29:07.850 2018] [4022] caught SIGTERM, shutting down
+[Sun Mar 18 14:29:08.789 2018] [4022] shutdown complete
+[Sat Apr 21 01:07:20.550 2018] [5674] watchdog: main process 5675 forked ok
+[Sat Apr 21 01:07:20.552 2018] [5675] listening on all interfaces, port=3564
+[Sat Apr 21 01:07:20.566 2018] [5675] FATAL: binlog meta file /home/mike/sharetribe/tmp/binlog/production/binlog.meta is v.6, binary is v.5; recovery requires previous binary version
+[Sat Apr 21 01:07:20.569 2018] [5674] watchdog: main process 5675 exited cleanly (exit code 1), shutting down
+[Sat Apr 21 01:08:24.339 2018] [5721] watchdog: main process 5722 forked ok
+[Sat Apr 21 01:08:24.341 2018] [5722] listening on all interfaces, port=3564
+[Sat Apr 21 01:08:24.347 2018] [5722] FATAL: binlog meta file /home/mike/sharetribe/tmp/binlog/production/binlog.meta is v.6, binary is v.5; recovery requires previous binary version
+[Sat Apr 21 01:08:24.350 2018] [5721] watchdog: main process 5722 exited cleanly (exit code 1), shutting down
+[Sat Apr 21 01:51:35.495 2018] [ 9542] watchdog: main process 9543 forked ok
+[Sat Apr 21 01:51:35.497 2018] [ 9543] listening on all interfaces, port=3564
+[Sat Apr 21 01:51:35.507 2018] [ 9543] accepting connections
+[Sat Apr 21 09:50:33.264 2018] [ 9543] caught SIGHUP (seamless=1, in queue=1)
+[Sat Apr 21 09:50:33.309 2018] [ 9543] rotating index 'listing_delta': started
+[Sat Apr 21 09:50:33.328 2018] [ 9543] rotating index 'listing_delta': success
+[Sat Apr 21 09:50:33.335 2018] [ 9543] rotating index: all indexes done
+[Sat Apr 21 09:50:33.782 2018] [ 9543] caught SIGHUP (seamless=1, in queue=1)
+[Sat Apr 21 09:50:33.790 2018] [ 9543] rotating index 'custom_field_value_delta': started
+[Sat Apr 21 09:50:33.801 2018] [ 9543] rotating index 'custom_field_value_delta': success
+[Sat Apr 21 09:50:33.812 2018] [ 9543] rotating index: all indexes done
+[Sat Apr 21 09:55:18.915 2018] [ 9543] caught SIGHUP (seamless=1, in queue=1)
+[Sat Apr 21 09:55:18.955 2018] [ 9543] rotating index 'listing_delta': started
+[Sat Apr 21 09:55:18.961 2018] [ 9543] rotating index 'listing_delta': success
+[Sat Apr 21 09:55:18.962 2018] [ 9543] rotating index: all indexes done
+[Sat Apr 21 09:55:19.022 2018] [ 9543] caught SIGHUP (seamless=1, in queue=1)
+[Sat Apr 21 09:55:19.063 2018] [ 9543] rotating index 'custom_field_value_delta': started
+[Sat Apr 21 09:55:19.065 2018] [ 9543] rotating index 'custom_field_value_delta': success
+[Sat Apr 21 09:55:19.066 2018] [ 9543] rotating index: all indexes done
+[Sat Apr 21 14:10:51.082 2018] [ 9543] caught SIGHUP (seamless=1, in queue=1)
+[Sat Apr 21 14:10:51.082 2018] [ 9543] caught SIGTERM, shutting down
+[Sat Apr 21 14:10:51.570 2018] [ 9543] shutdown complete
+[Tue Apr 24 09:37:37.141 2018] [ 6155] watchdog: main process 6156 forked ok
+[Tue Apr 24 09:37:37.143 2018] [ 6156] listening on all interfaces, port=3564
+[Tue Apr 24 09:37:37.158 2018] [ 6156] binlog: replaying log /home/mike/sharetribe/tmp/binlog/production/binlog.001
+[Tue Apr 24 09:37:37.159 2018] [ 6156] binlog: replay stats: 0 rows in 0 commits; 0 updates, 0 reconfigure; 0 indexes
+[Tue Apr 24 09:37:37.159 2018] [ 6156] binlog: finished replaying /home/mike/sharetribe/tmp/binlog/production/binlog.001; 0.0 MB in 0.000 sec
+[Tue Apr 24 09:37:37.159 2018] [ 6156] binlog: finished replaying total 1 in 0.000 sec
+[Tue Apr 24 09:37:37.160 2018] [ 6156] accepting connections
+[Tue Apr 24 13:34:31.060 2018] [ 6156] caught SIGHUP (seamless=1, in queue=1)
+[Tue Apr 24 13:34:31.060 2018] [ 6156] caught SIGTERM, shutting down
+[Tue Apr 24 13:34:31.367 2018] [ 6156] shutdown complete
+[Sat Apr 28 13:31:27.668 2018] [ 9877] watchdog: main process 9878 forked ok
+[Sat Apr 28 13:31:27.670 2018] [ 9878] listening on all interfaces, port=3564
+[Sat Apr 28 13:31:27.684 2018] [ 9878] binlog: replaying log /home/mike/sharetribe/tmp/binlog/production/binlog.001
+[Sat Apr 28 13:31:27.684 2018] [ 9878] binlog: replay stats: 0 rows in 0 commits; 0 updates, 0 reconfigure; 0 indexes
+[Sat Apr 28 13:31:27.684 2018] [ 9878] binlog: finished replaying /home/mike/sharetribe/tmp/binlog/production/binlog.001; 0.0 MB in 0.000 sec
+[Sat Apr 28 13:31:27.684 2018] [ 9878] binlog: replaying log /home/mike/sharetribe/tmp/binlog/production/binlog.001
+[Sat Apr 28 13:31:27.684 2018] [ 9878] binlog: replay stats: 0 rows in 0 commits; 0 updates, 0 reconfigure; 0 indexes
+[Sat Apr 28 13:31:27.684 2018] [ 9878] binlog: finished replaying /home/mike/sharetribe/tmp/binlog/production/binlog.001; 0.0 MB in 0.000 sec
+[Sat Apr 28 13:31:27.684 2018] [ 9878] binlog: finished replaying total 2 in 0.000 sec
+[Sat Apr 28 13:31:27.686 2018] [ 9878] accepting connections
+[Sat Apr 28 14:25:57.797 2018] [ 9878] caught SIGHUP (seamless=1, in queue=1)
+[Sat Apr 28 14:25:57.832 2018] [ 9878] caught SIGTERM, shutting down
+[Sat Apr 28 14:25:57.960 2018] [ 9878] shutdown complete
+[Sun Apr 29 06:32:40.961 2018] [ 5219] watchdog: main process 5220 forked ok
+[Sun Apr 29 06:32:40.963 2018] [ 5220] listening on all interfaces, port=3564
+[Sun Apr 29 06:32:40.975 2018] [ 5220] binlog: replaying log /home/mike/sharetribe/tmp/binlog/production/binlog.001
+[Sun Apr 29 06:32:40.976 2018] [ 5220] binlog: replay stats: 0 rows in 0 commits; 0 updates, 0 reconfigure; 0 indexes
+[Sun Apr 29 06:32:40.976 2018] [ 5220] binlog: finished replaying /home/mike/sharetribe/tmp/binlog/production/binlog.001; 0.0 MB in 0.000 sec
+[Sun Apr 29 06:32:40.976 2018] [ 5220] binlog: replaying log /home/mike/sharetribe/tmp/binlog/production/binlog.001
+[Sun Apr 29 06:32:40.976 2018] [ 5220] binlog: replay stats: 0 rows in 0 commits; 0 updates, 0 reconfigure; 0 indexes
+[Sun Apr 29 06:32:40.976 2018] [ 5220] binlog: finished replaying /home/mike/sharetribe/tmp/binlog/production/binlog.001; 0.0 MB in 0.000 sec
+[Sun Apr 29 06:32:40.976 2018] [ 5220] binlog: replaying log /home/mike/sharetribe/tmp/binlog/production/binlog.001
+[Sun Apr 29 06:32:40.976 2018] [ 5220] binlog: replay stats: 0 rows in 0 commits; 0 updates, 0 reconfigure; 0 indexes
+[Sun Apr 29 06:32:40.976 2018] [ 5220] binlog: finished replaying /home/mike/sharetribe/tmp/binlog/production/binlog.001; 0.0 MB in 0.000 sec
+[Sun Apr 29 06:32:40.976 2018] [ 5220] binlog: finished replaying total 3 in 0.001 sec
+[Sun Apr 29 06:32:40.978 2018] [ 5220] accepting connections
+[Sun Apr 29 09:32:49.007 2018] [ 5220] caught SIGTERM, shutting down
+[Sun Apr 29 09:32:49.324 2018] [ 5220] shutdown complete
+[Tue May  1 12:04:55.156 2018] [11088] watchdog: main process 11089 forked ok
+[Tue May  1 12:04:55.170 2018] [11089] listening on all interfaces, port=3564
+[Tue May  1 12:04:55.186 2018] [11089] binlog: replaying log /home/mike/sharetribe/tmp/binlog/production/binlog.001
+[Tue May  1 12:04:55.186 2018] [11089] binlog: replay stats: 0 rows in 0 commits; 0 updates, 0 reconfigure; 0 indexes
+[Tue May  1 12:04:55.186 2018] [11089] binlog: finished replaying /home/mike/sharetribe/tmp/binlog/production/binlog.001; 0.0 MB in 0.000 sec
+[Tue May  1 12:04:55.186 2018] [11089] binlog: replaying log /home/mike/sharetribe/tmp/binlog/production/binlog.001
+[Tue May  1 12:04:55.186 2018] [11089] binlog: replay stats: 0 rows in 0 commits; 0 updates, 0 reconfigure; 0 indexes
+[Tue May  1 12:04:55.186 2018] [11089] binlog: finished replaying /home/mike/sharetribe/tmp/binlog/production/binlog.001; 0.0 MB in 0.000 sec
+[Tue May  1 12:04:55.186 2018] [11089] binlog: replaying log /home/mike/sharetribe/tmp/binlog/production/binlog.001
+[Tue May  1 12:04:55.186 2018] [11089] binlog: replay stats: 0 rows in 0 commits; 0 updates, 0 reconfigure; 0 indexes
+[Tue May  1 12:04:55.186 2018] [11089] binlog: finished replaying /home/mike/sharetribe/tmp/binlog/production/binlog.001; 0.0 MB in 0.000 sec
+[Tue May  1 12:04:55.186 2018] [11089] binlog: replaying log /home/mike/sharetribe/tmp/binlog/production/binlog.001
+[Tue May  1 12:04:55.186 2018] [11089] binlog: replay stats: 0 rows in 0 commits; 0 updates, 0 reconfigure; 0 indexes
+[Tue May  1 12:04:55.186 2018] [11089] binlog: finished replaying /home/mike/sharetribe/tmp/binlog/production/binlog.001; 0.0 MB in 0.000 sec
+[Tue May  1 12:04:55.186 2018] [11089] binlog: finished replaying total 4 in 0.000 sec
+[Tue May  1 12:04:55.197 2018] [11089] accepting connections
+[Tue May  1 13:03:59.415 2018] [11089] caught SIGHUP (seamless=1, in queue=1)
+[Tue May  1 13:03:59.415 2018] [11089] caught SIGTERM, shutting down
+[Tue May  1 13:04:01.633 2018] [11089] shutdown complete
+[Wed May  2 09:32:52.439 2018] [ 5543] watchdog: main process 5544 forked ok
+[Wed May  2 09:32:52.441 2018] [ 5544] listening on all interfaces, port=3564
+[Wed May  2 09:32:52.455 2018] [ 5544] binlog: replaying log /home/mike/sharetribe/tmp/binlog/production/binlog.001
+[Wed May  2 09:32:52.456 2018] [ 5544] binlog: replay stats: 0 rows in 0 commits; 0 updates, 0 reconfigure; 0 indexes
+[Wed May  2 09:32:52.456 2018] [ 5544] binlog: finished replaying /home/mike/sharetribe/tmp/binlog/production/binlog.001; 0.0 MB in 0.000 sec
+[Wed May  2 09:32:52.456 2018] [ 5544] binlog: replaying log /home/mike/sharetribe/tmp/binlog/production/binlog.001
+[Wed May  2 09:32:52.456 2018] [ 5544] binlog: replay stats: 0 rows in 0 commits; 0 updates, 0 reconfigure; 0 indexes
+[Wed May  2 09:32:52.456 2018] [ 5544] binlog: finished replaying /home/mike/sharetribe/tmp/binlog/production/binlog.001; 0.0 MB in 0.000 sec
+[Wed May  2 09:32:52.456 2018] [ 5544] binlog: replaying log /home/mike/sharetribe/tmp/binlog/production/binlog.001
+[Wed May  2 09:32:52.456 2018] [ 5544] binlog: replay stats: 0 rows in 0 commits; 0 updates, 0 reconfigure; 0 indexes
+[Wed May  2 09:32:52.456 2018] [ 5544] binlog: finished replaying /home/mike/sharetribe/tmp/binlog/production/binlog.001; 0.0 MB in 0.000 sec
+[Wed May  2 09:32:52.456 2018] [ 5544] binlog: replaying log /home/mike/sharetribe/tmp/binlog/production/binlog.001
+[Wed May  2 09:32:52.456 2018] [ 5544] binlog: replay stats: 0 rows in 0 commits; 0 updates, 0 reconfigure; 0 indexes
+[Wed May  2 09:32:52.456 2018] [ 5544] binlog: finished replaying /home/mike/sharetribe/tmp/binlog/production/binlog.001; 0.0 MB in 0.000 sec
+[Wed May  2 09:32:52.456 2018] [ 5544] binlog: replaying log /home/mike/sharetribe/tmp/binlog/production/binlog.001
+[Wed May  2 09:32:52.456 2018] [ 5544] binlog: replay stats: 0 rows in 0 commits; 0 updates, 0 reconfigure; 0 indexes
+[Wed May  2 09:32:52.456 2018] [ 5544] binlog: finished replaying /home/mike/sharetribe/tmp/binlog/production/binlog.001; 0.0 MB in 0.000 sec
+[Wed May  2 09:32:52.456 2018] [ 5544] binlog: finished replaying total 5 in 0.000 sec
+[Wed May  2 09:32:52.457 2018] [ 5544] accepting connections
+[Wed May  2 12:35:31.570 2018] [ 5544] caught SIGHUP (seamless=1, in queue=1)
+[Wed May  2 12:35:31.570 2018] [ 5544] caught SIGTERM, shutting down
+[Wed May  2 12:35:31.666 2018] [ 5544] shutdown complete
+[Thu May  3 10:34:36.326 2018] [ 5240] watchdog: main process 5241 forked ok
+[Thu May  3 10:34:36.349 2018] [ 5241] listening on all interfaces, port=3564
+[Thu May  3 10:34:36.391 2018] [ 5241] binlog: replaying log /home/mike/sharetribe/tmp/binlog/production/binlog.001
+[Thu May  3 10:34:36.392 2018] [ 5241] binlog: replay stats: 0 rows in 0 commits; 0 updates, 0 reconfigure; 0 indexes
+[Thu May  3 10:34:36.392 2018] [ 5241] binlog: finished replaying /home/mike/sharetribe/tmp/binlog/production/binlog.001; 0.0 MB in 0.000 sec
+[Thu May  3 10:34:36.392 2018] [ 5241] binlog: replaying log /home/mike/sharetribe/tmp/binlog/production/binlog.001
+[Thu May  3 10:34:36.392 2018] [ 5241] binlog: replay stats: 0 rows in 0 commits; 0 updates, 0 reconfigure; 0 indexes
+[Thu May  3 10:34:36.392 2018] [ 5241] binlog: finished replaying /home/mike/sharetribe/tmp/binlog/production/binlog.001; 0.0 MB in 0.000 sec
+[Thu May  3 10:34:36.392 2018] [ 5241] binlog: replaying log /home/mike/sharetribe/tmp/binlog/production/binlog.001
+[Thu May  3 10:34:36.392 2018] [ 5241] binlog: replay stats: 0 rows in 0 commits; 0 updates, 0 reconfigure; 0 indexes
+[Thu May  3 10:34:36.392 2018] [ 5241] binlog: finished replaying /home/mike/sharetribe/tmp/binlog/production/binlog.001; 0.0 MB in 0.000 sec
+[Thu May  3 10:34:36.392 2018] [ 5241] binlog: replaying log /home/mike/sharetribe/tmp/binlog/production/binlog.001
+[Thu May  3 10:34:36.392 2018] [ 5241] binlog: replay stats: 0 rows in 0 commits; 0 updates, 0 reconfigure; 0 indexes
+[Thu May  3 10:34:36.392 2018] [ 5241] binlog: finished replaying /home/mike/sharetribe/tmp/binlog/production/binlog.001; 0.0 MB in 0.000 sec
+[Thu May  3 10:34:36.392 2018] [ 5241] binlog: replaying log /home/mike/sharetribe/tmp/binlog/production/binlog.001
+[Thu May  3 10:34:36.392 2018] [ 5241] binlog: replay stats: 0 rows in 0 commits; 0 updates, 0 reconfigure; 0 indexes
+[Thu May  3 10:34:36.392 2018] [ 5241] binlog: finished replaying /home/mike/sharetribe/tmp/binlog/production/binlog.001; 0.0 MB in 0.000 sec
+[Thu May  3 10:34:36.392 2018] [ 5241] binlog: replaying log /home/mike/sharetribe/tmp/binlog/production/binlog.001
+[Thu May  3 10:34:36.392 2018] [ 5241] binlog: replay stats: 0 rows in 0 commits; 0 updates, 0 reconfigure; 0 indexes
+[Thu May  3 10:34:36.392 2018] [ 5241] binlog: finished replaying /home/mike/sharetribe/tmp/binlog/production/binlog.001; 0.0 MB in 0.000 sec
+[Thu May  3 10:34:36.392 2018] [ 5241] binlog: finished replaying total 6 in 0.001 sec
+[Thu May  3 10:34:36.394 2018] [ 5241] accepting connections
+[Thu May  3 13:13:44.015 2018] [ 5241] caught SIGTERM, shutting down
+[Thu May  3 13:13:44.228 2018] [ 5241] shutdown complete
+[Mon May  7 07:55:04.245 2018] [ 5655] watchdog: main process 5656 forked ok
+[Mon May  7 07:55:04.248 2018] [ 5656] listening on all interfaces, port=3564
+[Mon May  7 07:55:04.260 2018] [ 5656] binlog: replaying log /home/mike/sharetribe/tmp/binlog/production/binlog.001
+[Mon May  7 07:55:04.260 2018] [ 5656] binlog: replay stats: 0 rows in 0 commits; 0 updates, 0 reconfigure; 0 indexes
+[Mon May  7 07:55:04.260 2018] [ 5656] binlog: finished replaying /home/mike/sharetribe/tmp/binlog/production/binlog.001; 0.0 MB in 0.000 sec
+[Mon May  7 07:55:04.260 2018] [ 5656] binlog: replaying log /home/mike/sharetribe/tmp/binlog/production/binlog.001
+[Mon May  7 07:55:04.260 2018] [ 5656] binlog: replay stats: 0 rows in 0 commits; 0 updates, 0 reconfigure; 0 indexes
+[Mon May  7 07:55:04.260 2018] [ 5656] binlog: finished replaying /home/mike/sharetribe/tmp/binlog/production/binlog.001; 0.0 MB in 0.000 sec
+[Mon May  7 07:55:04.260 2018] [ 5656] binlog: replaying log /home/mike/sharetribe/tmp/binlog/production/binlog.001
+[Mon May  7 07:55:04.260 2018] [ 5656] binlog: replay stats: 0 rows in 0 commits; 0 updates, 0 reconfigure; 0 indexes
+[Mon May  7 07:55:04.260 2018] [ 5656] binlog: finished replaying /home/mike/sharetribe/tmp/binlog/production/binlog.001; 0.0 MB in 0.000 sec
+[Mon May  7 07:55:04.261 2018] [ 5656] binlog: replaying log /home/mike/sharetribe/tmp/binlog/production/binlog.001
+[Mon May  7 07:55:04.261 2018] [ 5656] binlog: replay stats: 0 rows in 0 commits; 0 updates, 0 reconfigure; 0 indexes
+[Mon May  7 07:55:04.261 2018] [ 5656] binlog: finished replaying /home/mike/sharetribe/tmp/binlog/production/binlog.001; 0.0 MB in 0.000 sec
+[Mon May  7 07:55:04.261 2018] [ 5656] binlog: replaying log /home/mike/sharetribe/tmp/binlog/production/binlog.001
+[Mon May  7 07:55:04.261 2018] [ 5656] binlog: replay stats: 0 rows in 0 commits; 0 updates, 0 reconfigure; 0 indexes
+[Mon May  7 07:55:04.261 2018] [ 5656] binlog: finished replaying /home/mike/sharetribe/tmp/binlog/production/binlog.001; 0.0 MB in 0.000 sec
+[Mon May  7 07:55:04.261 2018] [ 5656] binlog: replaying log /home/mike/sharetribe/tmp/binlog/production/binlog.001
+[Mon May  7 07:55:04.261 2018] [ 5656] binlog: replay stats: 0 rows in 0 commits; 0 updates, 0 reconfigure; 0 indexes
+[Mon May  7 07:55:04.261 2018] [ 5656] binlog: finished replaying /home/mike/sharetribe/tmp/binlog/production/binlog.001; 0.0 MB in 0.000 sec
+[Mon May  7 07:55:04.261 2018] [ 5656] binlog: replaying log /home/mike/sharetribe/tmp/binlog/production/binlog.001
+[Mon May  7 07:55:04.261 2018] [ 5656] binlog: replay stats: 0 rows in 0 commits; 0 updates, 0 reconfigure; 0 indexes
+[Mon May  7 07:55:04.261 2018] [ 5656] binlog: finished replaying /home/mike/sharetribe/tmp/binlog/production/binlog.001; 0.0 MB in 0.000 sec
+[Mon May  7 07:55:04.261 2018] [ 5656] binlog: finished replaying total 7 in 0.000 sec
+[Mon May  7 07:55:04.263 2018] [ 5656] accepting connections
+[Tue May  8 12:05:58.747 2018] [ 5656] caught SIGHUP (seamless=1, in queue=1)
+[Tue May  8 12:05:58.814 2018] [ 5656] rotating index 'custom_field_value_delta': started
+[Tue May  8 12:05:58.825 2018] [ 5656] WARNING: binlog: failed to unlink /home/mike/sharetribe/tmp/binlog/production/binlog.001: No such file or directory (remove it manually)
+[Tue May  8 12:05:58.829 2018] [ 5656] last message repeated 6 times
+[Tue May  8 12:05:58.829 2018] [ 5656] rotating index 'custom_field_value_delta': success
+[Tue May  8 12:05:58.852 2018] [ 5656] rotating index 'custom_field_value_core': started
+[Tue May  8 12:05:58.859 2018] [ 5656] rotating index 'custom_field_value_core': success
+[Tue May  8 12:05:58.873 2018] [ 5656] rotating index: all indexes done
+[Tue May  8 12:06:39.438 2018] [ 5656] caught SIGTERM, shutting down
+[Tue May  8 12:06:39.583 2018] [ 5656] shutdown complete
+[Tue May  8 12:06:39.616 2018] [ 5655] watchdog: main process 5656 exited cleanly (exit code 0), shutting down
+[Tue May  8 12:06:50.010 2018] [25075] watchdog: main process 25076 forked ok
+[Tue May  8 12:06:50.012 2018] [25076] listening on all interfaces, port=3564
+[Tue May  8 12:06:50.036 2018] [25076] binlog: replaying log /home/mike/sharetribe/tmp/binlog/production/binlog.001
+[Tue May  8 12:06:50.036 2018] [25076] binlog: replay stats: 0 rows in 0 commits; 0 updates, 0 reconfigure; 0 indexes
+[Tue May  8 12:06:50.036 2018] [25076] binlog: finished replaying /home/mike/sharetribe/tmp/binlog/production/binlog.001; 0.0 MB in 0.000 sec
+[Tue May  8 12:06:50.036 2018] [25076] binlog: finished replaying total 1 in 0.000 sec
+[Tue May  8 12:06:50.037 2018] [25076] accepting connections
+[Tue May  8 14:31:09.031 2018] [25076] caught SIGHUP (seamless=1, in queue=1)
+[Tue May  8 14:31:09.031 2018] [25076] caught SIGTERM, shutting down
+[Tue May  8 14:31:14.321 2018] [25076] shutdown complete
+[Wed May  9 22:55:06.934 2018] [ 5246] watchdog: main process 5247 forked ok
+[Wed May  9 22:55:06.935 2018] [ 5247] listening on all interfaces, port=3564
+[Wed May  9 22:55:06.951 2018] [ 5247] binlog: replaying log /home/mike/sharetribe/tmp/binlog/production/binlog.001
+[Wed May  9 22:55:06.952 2018] [ 5247] binlog: replay stats: 0 rows in 0 commits; 0 updates, 0 reconfigure; 0 indexes
+[Wed May  9 22:55:06.952 2018] [ 5247] binlog: finished replaying /home/mike/sharetribe/tmp/binlog/production/binlog.001; 0.0 MB in 0.000 sec
+[Wed May  9 22:55:06.952 2018] [ 5247] binlog: replaying log /home/mike/sharetribe/tmp/binlog/production/binlog.001
+[Wed May  9 22:55:06.952 2018] [ 5247] binlog: replay stats: 0 rows in 0 commits; 0 updates, 0 reconfigure; 0 indexes
+[Wed May  9 22:55:06.952 2018] [ 5247] binlog: finished replaying /home/mike/sharetribe/tmp/binlog/production/binlog.001; 0.0 MB in 0.000 sec
+[Wed May  9 22:55:06.952 2018] [ 5247] binlog: finished replaying total 2 in 0.000 sec
+[Wed May  9 22:55:06.952 2018] [ 5247] accepting connections
+[Thu May 10 09:24:07.296 2018] [ 5247] caught SIGTERM, shutting down
+[Thu May 10 09:24:07.390 2018] [ 5247] shutdown complete
+[Thu May 10 09:24:07.394 2018] [ 5246] watchdog: main process 5247 exited cleanly (exit code 0), shutting down
+[Thu May 10 09:24:48.783 2018] [18766] watchdog: main process 18767 forked ok
+[Thu May 10 09:24:48.784 2018] [18767] listening on all interfaces, port=3564
+[Thu May 10 09:24:48.796 2018] [18767] binlog: replaying log /home/mike/sharetribe/tmp/binlog/production/binlog.001
+[Thu May 10 09:24:48.796 2018] [18767] binlog: replay stats: 0 rows in 0 commits; 0 updates, 0 reconfigure; 0 indexes
+[Thu May 10 09:24:48.796 2018] [18767] binlog: finished replaying /home/mike/sharetribe/tmp/binlog/production/binlog.001; 0.0 MB in 0.000 sec
+[Thu May 10 09:24:48.796 2018] [18767] binlog: replaying log /home/mike/sharetribe/tmp/binlog/production/binlog.001
+[Thu May 10 09:24:48.796 2018] [18767] binlog: replay stats: 0 rows in 0 commits; 0 updates, 0 reconfigure; 0 indexes
+[Thu May 10 09:24:48.796 2018] [18767] binlog: finished replaying /home/mike/sharetribe/tmp/binlog/production/binlog.001; 0.0 MB in 0.000 sec
+[Thu May 10 09:24:48.796 2018] [18767] binlog: replaying log /home/mike/sharetribe/tmp/binlog/production/binlog.001
+[Thu May 10 09:24:48.796 2018] [18767] binlog: replay stats: 0 rows in 0 commits; 0 updates, 0 reconfigure; 0 indexes
+[Thu May 10 09:24:48.796 2018] [18767] binlog: finished replaying /home/mike/sharetribe/tmp/binlog/production/binlog.001; 0.0 MB in 0.000 sec
+[Thu May 10 09:24:48.796 2018] [18767] binlog: finished replaying total 3 in 0.000 sec
+[Thu May 10 09:24:48.797 2018] [18767] accepting connections
+[Thu May 10 10:05:03.575 2018] [18767] caught SIGTERM, shutting down
+[Thu May 10 10:05:06.705 2018] [18767] shutdown complete
+[Thu May 10 10:05:06.707 2018] [18766] watchdog: main process 18767 exited cleanly (exit code 0), shutting down
+[Thu May 10 10:05:18.358 2018] [19916] watchdog: main process 19917 forked ok
+[Thu May 10 10:05:18.359 2018] [19917] listening on all interfaces, port=3564
+[Thu May 10 10:05:18.364 2018] [19917] WARNING: index 'listing_core': preload: failed to open /home/mike/sharetribe/db/sphinx/production/listing_core.sph: No such file or directory; NOT SERVING
+[Thu May 10 10:05:18.365 2018] [19917] WARNING: index 'listing_delta': preload: failed to open /home/mike/sharetribe/db/sphinx/production/listing_delta.sph: No such file or directory; NOT SERVING
+[Thu May 10 10:05:18.365 2018] [19917] accepting connections
+[Thu May 10 10:10:34.942 2018] [19917] caught SIGHUP (seamless=1, in queue=1)
+[Thu May 10 10:10:34.954 2018] [19917] rotating index 'custom_field_value_delta': started
+[Thu May 10 10:10:34.957 2018] [19917] rotating index 'custom_field_value_delta': success
+[Thu May 10 10:10:34.957 2018] [19917] rotating index 'custom_field_value_core': started
+[Thu May 10 10:10:34.959 2018] [19917] rotating index 'custom_field_value_core': success
+[Thu May 10 10:10:34.959 2018] [19917] rotating index: all indexes done
+[Thu May 10 10:21:26.434 2018] [19917] caught SIGHUP (seamless=1, in queue=1)
+[Thu May 10 10:21:26.439 2018] [19917] rotating index 'custom_field_value_delta': started
+[Thu May 10 10:21:26.440 2018] [19917] rotating index 'custom_field_value_delta': success
+[Thu May 10 10:21:26.441 2018] [19917] rotating index 'custom_field_value_core': started
+[Thu May 10 10:21:26.442 2018] [19917] rotating index 'custom_field_value_core': success
+[Thu May 10 10:21:26.442 2018] [19917] rotating index: all indexes done
+[Thu May 10 10:22:16.425 2018] [19917] caught SIGHUP (seamless=1, in queue=1)
+[Thu May 10 10:22:16.467 2018] [19917] rotating index 'listing_delta': started
+[Thu May 10 10:22:16.468 2018] [19917] rotating index 'listing_delta': success
+[Thu May 10 10:22:16.468 2018] [19917] rotating index 'listing_core': started
+[Thu May 10 10:22:16.469 2018] [19917] rotating index 'listing_core': success
+[Thu May 10 10:22:16.469 2018] [19917] rotating index 'custom_field_value_delta': started
+[Thu May 10 10:22:16.471 2018] [19917] rotating index 'custom_field_value_delta': success
+[Thu May 10 10:22:16.472 2018] [19917] rotating index 'custom_field_value_core': started
+[Thu May 10 10:22:16.473 2018] [19917] rotating index 'custom_field_value_core': success
+[Thu May 10 10:22:16.473 2018] [19917] rotating index: all indexes done
+[Thu May 10 10:53:43.613 2018] [19917] caught SIGHUP (seamless=1, in queue=1)
+[Thu May 10 10:53:43.638 2018] [19917] rotating index 'custom_field_value_delta': started
+[Thu May 10 10:53:43.640 2018] [19917] rotating index 'custom_field_value_delta': success
+[Thu May 10 10:53:43.641 2018] [19917] rotating index 'custom_field_value_core': started
+[Thu May 10 10:53:43.644 2018] [19917] rotating index 'custom_field_value_core': success
+[Thu May 10 10:53:43.644 2018] [19917] rotating index: all indexes done
+[Thu May 10 10:59:00.443 2018] [19917] caught SIGTERM, shutting down
+[Thu May 10 10:59:00.562 2018] [19917] shutdown complete
+[Thu May 10 10:59:00.564 2018] [19916] watchdog: main process 19917 exited cleanly (exit code 0), shutting down
+[Thu May 10 10:59:01.329 2018] [21566] watchdog: main process 21567 forked ok
+[Thu May 10 10:59:01.330 2018] [21567] listening on all interfaces, port=3564
+[Thu May 10 10:59:01.333 2018] [21567] WARNING: index 'listing_core': preload: failed to open /home/mike/sharetribe/db/sphinx/production/listing_core.sph: No such file or directory; NOT SERVING
+[Thu May 10 10:59:01.333 2018] [21567] WARNING: index 'listing_delta': preload: failed to open /home/mike/sharetribe/db/sphinx/production/listing_delta.sph: No such file or directory; NOT SERVING
+[Thu May 10 10:59:01.334 2018] [21567] accepting connections
+[Thu May 10 11:07:42.141 2018] [21567] caught SIGTERM, shutting down
+[Thu May 10 11:07:45.246 2018] [21567] shutdown complete
+[Thu May 10 11:07:45.248 2018] [21566] watchdog: main process 21567 exited cleanly (exit code 0), shutting down
+[Thu May 10 11:13:22.602 2018] [22082] watchdog: main process 22083 forked ok
+[Thu May 10 11:13:22.605 2018] [22083] listening on all interfaces, port=3564
+[Thu May 10 11:13:22.611 2018] [22083] WARNING: index 'listing_core': preload: failed to open /home/mike/sharetribe/db/sphinx/production/listing_core.sph: No such file or directory; NOT SERVING
+[Thu May 10 11:13:22.611 2018] [22083] WARNING: index 'listing_delta': preload: failed to open /home/mike/sharetribe/db/sphinx/production/listing_delta.sph: No such file or directory; NOT SERVING
+[Thu May 10 11:13:22.612 2018] [22083] accepting connections
+[Thu May 10 12:21:41.907 2018] [22083] caught SIGTERM, shutting down
+[Thu May 10 12:21:41.928 2018] [22083] shutdown complete
+[Thu May 10 12:21:41.930 2018] [22082] watchdog: main process 22083 exited cleanly (exit code 0), shutting down
+[Thu May 10 12:21:42.661 2018] [23494] watchdog: main process 23495 forked ok
+[Thu May 10 12:21:42.664 2018] [23495] listening on all interfaces, port=3564
+[Thu May 10 12:21:42.668 2018] [23495] WARNING: index 'listing_core': preload: failed to open /home/mike/sharetribe/db/sphinx/production/listing_core.sph: No such file or directory; NOT SERVING
+[Thu May 10 12:21:42.668 2018] [23495] WARNING: index 'listing_delta': preload: failed to open /home/mike/sharetribe/db/sphinx/production/listing_delta.sph: No such file or directory; NOT SERVING
+[Thu May 10 12:21:42.669 2018] [23495] accepting connections
+[Thu May 10 12:21:57.128 2018] [23495] caught SIGTERM, shutting down
+[Thu May 10 12:21:57.186 2018] [23495] shutdown complete
+[Thu May 10 12:21:57.187 2018] [23494] watchdog: main process 23495 exited cleanly (exit code 0), shutting down
+[Fri May 11 10:39:16.202 2018] [27420] watchdog: main process 27421 forked ok
+[Fri May 11 10:39:16.204 2018] [27421] listening on all interfaces, port=3564
+[Fri May 11 10:39:16.209 2018] [27421] WARNING: index 'listing_core': preload: failed to open /home/mike/sharetribe/db/sphinx/production/listing_core.sph: No such file or directory; NOT SERVING
+[Fri May 11 10:39:16.209 2018] [27421] WARNING: index 'listing_delta': preload: failed to open /home/mike/sharetribe/db/sphinx/production/listing_delta.sph: No such file or directory; NOT SERVING
+[Fri May 11 10:39:16.210 2018] [27421] accepting connections
+[Fri May 11 10:40:23.169 2018] [27421] caught SIGTERM, shutting down
+[Fri May 11 10:40:23.236 2018] [27421] shutdown complete
+[Fri May 11 10:40:23.237 2018] [27420] watchdog: main process 27421 exited cleanly (exit code 0), shutting down
+[Fri May 11 10:40:24.008 2018] [27506] watchdog: main process 27507 forked ok
+[Fri May 11 10:40:24.009 2018] [27507] listening on all interfaces, port=3564
+[Fri May 11 10:40:24.013 2018] [27507] WARNING: index 'listing_core': preload: failed to open /home/mike/sharetribe/db/sphinx/production/listing_core.sph: No such file or directory; NOT SERVING
+[Fri May 11 10:40:24.014 2018] [27507] WARNING: index 'listing_delta': preload: failed to open /home/mike/sharetribe/db/sphinx/production/listing_delta.sph: No such file or directory; NOT SERVING
+[Fri May 11 10:40:24.014 2018] [27507] accepting connections
+[Fri May 11 10:41:34.753 2018] [27507] caught SIGTERM, shutting down
+[Fri May 11 10:41:34.785 2018] [27507] shutdown complete
+[Fri May 11 10:41:34.787 2018] [27506] watchdog: main process 27507 exited cleanly (exit code 0), shutting down
+[Fri May 11 11:01:24.773 2018] [27914] watchdog: main process 27915 forked ok
+[Fri May 11 11:01:24.777 2018] [27915] listening on all interfaces, port=3564
+[Fri May 11 11:01:24.788 2018] [27915] WARNING: index 'listing_core': preload: failed to open /home/mike/sharetribe/db/sphinx/production/listing_core.sph: No such file or directory; NOT SERVING
+[Fri May 11 11:01:24.788 2018] [27915] WARNING: index 'listing_delta': preload: failed to open /home/mike/sharetribe/db/sphinx/production/listing_delta.sph: No such file or directory; NOT SERVING
+[Fri May 11 11:01:24.790 2018] [27915] accepting connections
+[Fri May 11 11:05:15.539 2018] [27915] caught SIGTERM, shutting down
+[Fri May 11 11:05:15.617 2018] [27915] shutdown complete
+[Fri May 11 11:05:15.618 2018] [27914] watchdog: main process 27915 exited cleanly (exit code 0), shutting down
+[Fri May 11 11:16:49.138 2018] [28382] watchdog: main process 28383 forked ok
+[Fri May 11 11:16:49.140 2018] [28383] listening on all interfaces, port=3564
+[Fri May 11 11:16:49.142 2018] [28383] WARNING: index 'listing_core': preload: failed to open /home/mike/sharetribe/db/sphinx/production/listing_core.sph: No such file or directory; NOT SERVING
+[Fri May 11 11:16:49.143 2018] [28383] WARNING: index 'listing_delta': preload: failed to open /home/mike/sharetribe/db/sphinx/production/listing_delta.sph: No such file or directory; NOT SERVING
+[Fri May 11 11:16:49.143 2018] [28383] accepting connections
+[Fri May 11 11:17:50.640 2018] [28383] caught SIGTERM, shutting down
+[Fri May 11 11:17:50.755 2018] [28383] shutdown complete
+[Fri May 11 11:17:50.757 2018] [28382] watchdog: main process 28383 exited cleanly (exit code 0), shutting down
+[Fri May 11 11:17:51.513 2018] [28447] watchdog: main process 28448 forked ok
+[Fri May 11 11:17:51.515 2018] [28448] listening on all interfaces, port=3564
+[Fri May 11 11:17:51.521 2018] [28448] accepting connections
+[Fri May 11 11:18:10.998 2018] [28448] caught SIGHUP (seamless=1, in queue=1)
+[Fri May 11 11:18:11.015 2018] [28448] rotating index 'listing_delta': started
+[Fri May 11 11:18:11.017 2018] [28448] rotating index 'listing_delta': success
+[Fri May 11 11:18:11.017 2018] [28448] rotating index 'listing_core': started
+[Fri May 11 11:18:11.019 2018] [28448] rotating index 'listing_core': success
+[Fri May 11 11:18:11.019 2018] [28448] rotating index 'custom_field_value_delta': started
+[Fri May 11 11:18:11.022 2018] [28448] rotating index 'custom_field_value_delta': success
+[Fri May 11 11:18:11.022 2018] [28448] rotating index 'custom_field_value_core': started
+[Fri May 11 11:18:11.023 2018] [28448] rotating index 'custom_field_value_core': success
+[Fri May 11 11:18:11.023 2018] [28448] rotating index: all indexes done
+[Fri May 11 11:20:15.491 2018] [28448] caught SIGTERM, shutting down
+[Fri May 11 11:20:15.562 2018] [28448] shutdown complete
+[Fri May 11 11:20:15.563 2018] [28447] watchdog: main process 28448 exited cleanly (exit code 0), shutting down
+[Fri May 11 11:20:16.276 2018] [28573] watchdog: main process 28574 forked ok
+[Fri May 11 11:20:16.278 2018] [28574] listening on all interfaces, port=3564
+[Fri May 11 11:20:16.283 2018] [28574] WARNING: index 'listing_core': preload: failed to open /home/mike/sharetribe/db/sphinx/production/listing_core.sph: No such file or directory; NOT SERVING
+[Fri May 11 11:20:16.283 2018] [28574] WARNING: index 'listing_delta': preload: failed to open /home/mike/sharetribe/db/sphinx/production/listing_delta.sph: No such file or directory; NOT SERVING
+[Fri May 11 11:20:16.283 2018] [28574] accepting connections
+[Fri May 11 11:49:13.560 2018] [28574] caught SIGTERM, shutting down
+[Fri May 11 11:49:13.651 2018] [28574] shutdown complete
+[Fri May 11 11:49:13.653 2018] [28573] watchdog: main process 28574 exited cleanly (exit code 0), shutting down
+[Fri May 11 11:49:14.401 2018] [29154] watchdog: main process 29155 forked ok
+[Fri May 11 11:49:14.402 2018] [29155] listening on all interfaces, port=3564
+[Fri May 11 11:49:14.406 2018] [29155] WARNING: index 'listing_core': preload: failed to open /home/mike/sharetribe/db/sphinx/production/listing_core.sph: No such file or directory; NOT SERVING
+[Fri May 11 11:49:14.406 2018] [29155] WARNING: index 'listing_delta': preload: failed to open /home/mike/sharetribe/db/sphinx/production/listing_delta.sph: No such file or directory; NOT SERVING
+[Fri May 11 11:49:14.407 2018] [29155] accepting connections
+[Fri May 11 11:54:19.172 2018] [29155] caught SIGTERM, shutting down
+[Fri May 11 11:54:19.277 2018] [29155] shutdown complete
+[Fri May 11 11:54:19.278 2018] [29154] watchdog: main process 29155 exited cleanly (exit code 0), shutting down
+[Fri May 11 11:54:19.984 2018] [29272] watchdog: main process 29273 forked ok
+[Fri May 11 11:54:19.985 2018] [29273] listening on all interfaces, port=3564
+[Fri May 11 11:54:19.988 2018] [29273] WARNING: index 'listing_core': preload: failed to open /home/mike/sharetribe/db/sphinx/production/listing_core.sph: No such file or directory; NOT SERVING
+[Fri May 11 11:54:19.988 2018] [29273] WARNING: index 'listing_delta': preload: failed to open /home/mike/sharetribe/db/sphinx/production/listing_delta.sph: No such file or directory; NOT SERVING
+[Fri May 11 11:54:19.989 2018] [29273] accepting connections
+[Fri May 11 11:54:59.601 2018] [29273] caught SIGHUP (seamless=1, in queue=1)
+[Fri May 11 11:54:59.622 2018] [29273] rotating index 'custom_field_value_delta': started
+[Fri May 11 11:54:59.624 2018] [29273] rotating index 'custom_field_value_delta': success
+[Fri May 11 11:54:59.624 2018] [29273] rotating index 'custom_field_value_core': started
+[Fri May 11 11:54:59.626 2018] [29273] rotating index 'custom_field_value_core': success
+[Fri May 11 11:54:59.626 2018] [29273] rotating index: all indexes done
+[Fri May 11 12:26:01.593 2018] [29273] caught SIGTERM, shutting down
+[Fri May 11 12:26:01.617 2018] [29273] shutdown complete
+[Fri May 11 12:26:01.620 2018] [29272] watchdog: main process 29273 exited cleanly (exit code 0), shutting down
+[Fri May 11 12:26:02.452 2018] [30060] watchdog: main process 30061 forked ok
+[Fri May 11 12:26:02.454 2018] [30061] listening on all interfaces, port=3564
+[Fri May 11 12:26:02.457 2018] [30061] WARNING: index 'listing_core': preload: failed to open /home/mike/sharetribe/db/sphinx/production/listing_core.sph: No such file or directory; NOT SERVING
+[Fri May 11 12:26:02.457 2018] [30061] WARNING: index 'listing_delta': preload: failed to open /home/mike/sharetribe/db/sphinx/production/listing_delta.sph: No such file or directory; NOT SERVING
+[Fri May 11 12:26:02.457 2018] [30061] accepting connections
+[Fri May 11 12:32:26.051 2018] [30061] caught SIGTERM, shutting down
+[Fri May 11 12:32:26.194 2018] [30061] shutdown complete
+[Fri May 11 12:32:26.196 2018] [30060] watchdog: main process 30061 exited cleanly (exit code 0), shutting down
+[Fri May 11 12:33:04.979 2018] [30270] watchdog: main process 30271 forked ok
+[Fri May 11 12:33:04.980 2018] [30271] listening on all interfaces, port=3564
+[Fri May 11 12:33:04.983 2018] [30271] WARNING: index 'listing_core': preload: failed to open /home/mike/sharetribe/db/sphinx/production/listing_core.sph: No such file or directory; NOT SERVING
+[Fri May 11 12:33:04.984 2018] [30271] WARNING: index 'listing_delta': preload: failed to open /home/mike/sharetribe/db/sphinx/production/listing_delta.sph: No such file or directory; NOT SERVING
+[Fri May 11 12:33:04.984 2018] [30271] accepting connections
+[Fri May 11 12:33:55.881 2018] [30271] caught SIGTERM, shutting down
+[Fri May 11 12:33:55.954 2018] [30271] shutdown complete
+[Fri May 11 12:33:55.956 2018] [30270] watchdog: main process 30271 exited cleanly (exit code 0), shutting down
+[Fri May 11 12:35:55.414 2018] [30397] watchdog: main process 30398 forked ok
+[Fri May 11 12:35:55.417 2018] [30398] listening on all interfaces, port=3564
+[Fri May 11 12:35:55.421 2018] [30398] WARNING: index 'listing_core': preload: failed to open /home/mike/sharetribe/db/sphinx/production/listing_core.sph: No such file or directory; NOT SERVING
+[Fri May 11 12:35:55.421 2018] [30398] WARNING: index 'listing_delta': preload: failed to open /home/mike/sharetribe/db/sphinx/production/listing_delta.sph: No such file or directory; NOT SERVING
+[Fri May 11 12:35:55.422 2018] [30398] accepting connections
+[Fri May 11 13:01:35.776 2018] [30398] caught SIGTERM, shutting down
+[Fri May 11 13:01:35.916 2018] [30398] shutdown complete
+[Fri May 11 13:01:35.918 2018] [30397] watchdog: main process 30398 exited cleanly (exit code 0), shutting down
+[Fri May 11 13:01:36.686 2018] [31001] watchdog: main process 31002 forked ok
+[Fri May 11 13:01:36.688 2018] [31002] listening on all interfaces, port=3564
+[Fri May 11 13:01:36.690 2018] [31002] WARNING: index 'listing_core': preload: failed to open /home/mike/sharetribe/db/sphinx/production/listing_core.sph: No such file or directory; NOT SERVING
+[Fri May 11 13:01:36.690 2018] [31002] WARNING: index 'listing_delta': preload: failed to open /home/mike/sharetribe/db/sphinx/production/listing_delta.sph: No such file or directory; NOT SERVING
+[Fri May 11 13:01:36.691 2018] [31002] accepting connections
+[Fri May 11 13:05:35.572 2018] [31002] caught SIGTERM, shutting down
+[Fri May 11 13:05:35.629 2018] [31002] shutdown complete
+[Fri May 11 13:05:35.631 2018] [31001] watchdog: main process 31002 exited cleanly (exit code 0), shutting down
+[Fri May 11 13:05:50.957 2018] [31162] watchdog: main process 31163 forked ok
+[Fri May 11 13:05:50.958 2018] [31163] listening on all interfaces, port=3564
+[Fri May 11 13:05:50.964 2018] [31163] accepting connections
+[Fri May 11 13:09:55.940 2018] [31163] caught SIGTERM, shutting down
+[Fri May 11 13:09:59.058 2018] [31163] shutdown complete
+[Fri May 11 13:09:59.060 2018] [31162] watchdog: main process 31163 exited cleanly (exit code 0), shutting down
+[Fri May 11 13:12:25.763 2018] [31462] watchdog: main process 31463 forked ok
+[Fri May 11 13:12:25.765 2018] [31463] listening on all interfaces, port=3564
+[Fri May 11 13:12:25.772 2018] [31463] accepting connections
+[Fri May 11 13:14:03.412 2018] [31463] caught SIGTERM, shutting down
+[Fri May 11 13:14:03.481 2018] [31463] shutdown complete
+[Fri May 11 13:14:03.483 2018] [31462] watchdog: main process 31463 exited cleanly (exit code 0), shutting down
+[Fri May 11 13:14:04.426 2018] [31545] watchdog: main process 31546 forked ok
+[Fri May 11 13:14:04.427 2018] [31546] listening on all interfaces, port=3564
+[Fri May 11 13:14:04.434 2018] [31546] accepting connections
+[Fri May 11 13:24:39.373 2018] [31546] caught SIGTERM, shutting down
+[Fri May 11 13:24:42.485 2018] [31546] shutdown complete
+[Fri May 11 13:24:42.487 2018] [31545] watchdog: main process 31546 exited cleanly (exit code 0), shutting down
+[Fri May 11 13:24:43.463 2018] [31884] watchdog: main process 31885 forked ok
+[Fri May 11 13:24:43.465 2018] [31885] listening on all interfaces, port=3564
+[Fri May 11 13:24:43.470 2018] [31885] WARNING: index 'listing_core': preload: failed to open /home/mike/sharetribe/db/sphinx/production/listing_core.sph: No such file or directory; NOT SERVING
+[Fri May 11 13:24:43.470 2018] [31885] WARNING: index 'listing_delta': preload: failed to open /home/mike/sharetribe/db/sphinx/production/listing_delta.sph: No such file or directory; NOT SERVING
+[Fri May 11 13:24:43.471 2018] [31885] accepting connections
+[Fri May 11 13:29:54.452 2018] [31885] caught SIGTERM, shutting down
+[Fri May 11 13:29:54.502 2018] [31885] shutdown complete
+[Fri May 11 13:29:54.505 2018] [31884] watchdog: main process 31885 exited cleanly (exit code 0), shutting down
+[Fri May 11 13:29:55.492 2018] [32030] watchdog: main process 32031 forked ok
+[Fri May 11 13:29:55.494 2018] [32031] listening on all interfaces, port=3564
+[Fri May 11 13:29:55.499 2018] [32031] WARNING: index 'listing_core': preload: failed to open /home/mike/sharetribe/db/sphinx/production/listing_core.sph: No such file or directory; NOT SERVING
+[Fri May 11 13:29:55.499 2018] [32031] WARNING: index 'listing_delta': preload: failed to open /home/mike/sharetribe/db/sphinx/production/listing_delta.sph: No such file or directory; NOT SERVING
+[Fri May 11 13:29:55.500 2018] [32031] accepting connections
+[Fri May 11 13:31:17.161 2018] [32031] caught SIGTERM, shutting down
+[Fri May 11 13:31:17.266 2018] [32031] shutdown complete
+[Fri May 11 13:31:17.267 2018] [32030] watchdog: main process 32031 exited cleanly (exit code 0), shutting down
+[Fri May 11 13:31:18.170 2018] [32098] watchdog: main process 32099 forked ok
+[Fri May 11 13:31:18.173 2018] [32099] listening on all interfaces, port=3564
+[Fri May 11 13:31:18.176 2018] [32099] WARNING: index 'listing_core': preload: failed to open /home/mike/sharetribe/db/sphinx/production/listing_core.sph: No such file or directory; NOT SERVING
+[Fri May 11 13:31:18.176 2018] [32099] WARNING: index 'listing_delta': preload: failed to open /home/mike/sharetribe/db/sphinx/production/listing_delta.sph: No such file or directory; NOT SERVING
+[Fri May 11 13:31:18.177 2018] [32099] accepting connections
+[Fri May 11 13:31:38.501 2018] [32099] caught SIGTERM, shutting down
+[Fri May 11 13:31:38.619 2018] [32099] shutdown complete
+[Fri May 11 13:31:38.621 2018] [32098] watchdog: main process 32099 exited cleanly (exit code 0), shutting down
+[Fri May 11 13:31:39.336 2018] [32149] watchdog: main process 32150 forked ok
+[Fri May 11 13:31:39.337 2018] [32150] listening on all interfaces, port=3564
+[Fri May 11 13:31:39.340 2018] [32150] WARNING: index 'listing_core': preload: failed to open /home/mike/sharetribe/db/sphinx/production/listing_core.sph: No such file or directory; NOT SERVING
+[Fri May 11 13:31:39.340 2018] [32150] WARNING: index 'listing_delta': preload: failed to open /home/mike/sharetribe/db/sphinx/production/listing_delta.sph: No such file or directory; NOT SERVING
+[Fri May 11 13:31:39.341 2018] [32150] accepting connections
+[Fri May 11 13:31:54.545 2018] [32150] caught SIGTERM, shutting down
+[Fri May 11 13:31:54.658 2018] [32150] shutdown complete
+[Fri May 11 13:31:54.659 2018] [32149] watchdog: main process 32150 exited cleanly (exit code 0), shutting down
+[Fri May 11 13:31:55.393 2018] [32199] watchdog: main process 32200 forked ok
+[Fri May 11 13:31:55.394 2018] [32200] listening on all interfaces, port=3564
+[Fri May 11 13:31:55.397 2018] [32200] WARNING: index 'listing_core': preload: failed to open /home/mike/sharetribe/db/sphinx/production/listing_core.sph: No such file or directory; NOT SERVING
+[Fri May 11 13:31:55.397 2018] [32200] WARNING: index 'listing_delta': preload: failed to open /home/mike/sharetribe/db/sphinx/production/listing_delta.sph: No such file or directory; NOT SERVING
+[Fri May 11 13:31:55.397 2018] [32200] accepting connections
+[Fri May 11 13:36:13.731 2018] [32200] caught SIGTERM, shutting down
+[Fri May 11 13:36:13.808 2018] [32200] shutdown complete
+[Fri May 11 13:36:13.810 2018] [32199] watchdog: main process 32200 exited cleanly (exit code 0), shutting down
+[Fri May 11 13:38:51.967 2018] [32424] watchdog: main process 32425 forked ok
+[Fri May 11 13:38:51.968 2018] [32425] listening on all interfaces, port=3564
+[Fri May 11 13:38:51.975 2018] [32425] WARNING: index 'listing_core': preload: failed to open /home/mike/sharetribe/db/sphinx/production/listing_core.sph: No such file or directory; NOT SERVING
+[Fri May 11 13:38:51.975 2018] [32425] WARNING: index 'listing_delta': preload: failed to open /home/mike/sharetribe/db/sphinx/production/listing_delta.sph: No such file or directory; NOT SERVING
+[Fri May 11 13:38:51.976 2018] [32425] accepting connections
+[Fri May 11 13:40:02.239 2018] [32425] caught SIGTERM, shutting down
+[Fri May 11 13:40:02.356 2018] [32425] shutdown complete
+[Fri May 11 13:40:02.358 2018] [32424] watchdog: main process 32425 exited cleanly (exit code 0), shutting down
+[Fri May 11 13:40:03.096 2018] [32557] watchdog: main process 32558 forked ok
+[Fri May 11 13:40:03.097 2018] [32558] listening on all interfaces, port=3564
+[Fri May 11 13:40:03.103 2018] [32558] WARNING: index 'listing_core': preload: failed to open /home/mike/sharetribe/db/sphinx/production/listing_core.sph: No such file or directory; NOT SERVING
+[Fri May 11 13:40:03.103 2018] [32558] WARNING: index 'listing_delta': preload: failed to open /home/mike/sharetribe/db/sphinx/production/listing_delta.sph: No such file or directory; NOT SERVING
+[Fri May 11 13:40:03.104 2018] [32558] accepting connections
+[Fri May 11 13:43:01.776 2018] [32558] caught SIGHUP (seamless=1, in queue=1)
+[Fri May 11 13:43:01.776 2018] [32558] caught SIGTERM, shutting down
+[Fri May 11 13:43:01.834 2018] [32558] shutdown complete
+[Fri May 11 22:19:50.022 2018] [ 4294] watchdog: main process 4295 forked ok
+[Fri May 11 22:19:50.051 2018] [ 4295] listening on all interfaces, port=3564
+[Fri May 11 22:19:50.080 2018] [ 4295] WARNING: index 'listing_core': preload: failed to open /home/mike/sharetribe/db/sphinx/production/listing_core.sph: No such file or directory; NOT SERVING
+[Fri May 11 22:19:50.080 2018] [ 4295] WARNING: index 'listing_delta': preload: failed to open /home/mike/sharetribe/db/sphinx/production/listing_delta.sph: No such file or directory; NOT SERVING
+[Fri May 11 22:19:50.086 2018] [ 4295] binlog: replaying log /home/mike/sharetribe/tmp/binlog/production/binlog.001
+[Fri May 11 22:19:50.087 2018] [ 4295] binlog: replay stats: 0 rows in 0 commits; 0 updates, 0 reconfigure; 0 indexes
+[Fri May 11 22:19:50.087 2018] [ 4295] binlog: finished replaying /home/mike/sharetribe/tmp/binlog/production/binlog.001; 0.0 MB in 0.000 sec
+[Fri May 11 22:19:50.087 2018] [ 4295] binlog: finished replaying total 1 in 0.000 sec
+[Fri May 11 22:19:50.089 2018] [ 4295] accepting connections
+[Fri May 11 22:20:21.771 2018] [ 4295] caught SIGTERM, shutting down
+[Fri May 11 22:20:21.845 2018] [ 4295] shutdown complete
+[Fri May 11 22:20:21.846 2018] [ 4294] watchdog: main process 4295 exited cleanly (exit code 0), shutting down
+[Fri May 11 22:20:22.985 2018] [ 4352] watchdog: main process 4353 forked ok
+[Fri May 11 22:20:22.988 2018] [ 4353] listening on all interfaces, port=3564
+[Fri May 11 22:20:22.993 2018] [ 4353] WARNING: index 'listing_core': preload: failed to open /home/mike/sharetribe/db/sphinx/production/listing_core.sph: No such file or directory; NOT SERVING
+[Fri May 11 22:20:22.994 2018] [ 4353] WARNING: index 'listing_delta': preload: failed to open /home/mike/sharetribe/db/sphinx/production/listing_delta.sph: No such file or directory; NOT SERVING
+[Fri May 11 22:20:22.995 2018] [ 4353] accepting connections
+[Fri May 11 22:36:16.835 2018] [ 4353] caught SIGTERM, shutting down
+[Fri May 11 22:36:16.894 2018] [ 4353] shutdown complete
+[Fri May 11 22:36:16.896 2018] [ 4352] watchdog: main process 4353 exited cleanly (exit code 0), shutting down
+[Fri May 11 22:36:17.928 2018] [ 4603] watchdog: main process 4604 forked ok
+[Fri May 11 22:36:17.929 2018] [ 4604] listening on all interfaces, port=3564
+[Fri May 11 22:36:17.933 2018] [ 4604] WARNING: index 'listing_core': preload: failed to open /home/mike/sharetribe/db/sphinx/production/listing_core.sph: No such file or directory; NOT SERVING
+[Fri May 11 22:36:17.933 2018] [ 4604] WARNING: index 'listing_delta': preload: failed to open /home/mike/sharetribe/db/sphinx/production/listing_delta.sph: No such file or directory; NOT SERVING
+[Fri May 11 22:36:17.934 2018] [ 4604] accepting connections
+[Fri May 11 22:57:08.110 2018] [ 4604] caught SIGTERM, shutting down
+[Fri May 11 22:57:08.191 2018] [ 4604] shutdown complete
+[Fri May 11 22:57:08.193 2018] [ 4603] watchdog: main process 4604 exited cleanly (exit code 0), shutting down
+[Fri May 11 22:57:09.189 2018] [ 4958] watchdog: main process 4959 forked ok
+[Fri May 11 22:57:09.191 2018] [ 4959] listening on all interfaces, port=3564
+[Fri May 11 22:57:09.193 2018] [ 4959] WARNING: index 'listing_core': preload: failed to open /home/mike/sharetribe/db/sphinx/production/listing_core.sph: No such file or directory; NOT SERVING
+[Fri May 11 22:57:09.194 2018] [ 4959] WARNING: index 'listing_delta': preload: failed to open /home/mike/sharetribe/db/sphinx/production/listing_delta.sph: No such file or directory; NOT SERVING
+[Fri May 11 22:57:09.196 2018] [ 4959] accepting connections
+[Fri May 11 23:06:33.875 2018] [ 4959] caught SIGTERM, shutting down
+[Fri May 11 23:06:33.985 2018] [ 4959] shutdown complete
+[Fri May 11 23:06:33.987 2018] [ 4958] watchdog: main process 4959 exited cleanly (exit code 0), shutting down
+[Fri May 11 23:06:35.044 2018] [ 5123] watchdog: main process 5124 forked ok
+[Fri May 11 23:06:35.047 2018] [ 5124] listening on all interfaces, port=3564
+[Fri May 11 23:06:35.053 2018] [ 5124] accepting connections
+[Fri May 11 23:09:41.899 2018] [ 5124] caught SIGTERM, shutting down
+[Fri May 11 23:09:42.025 2018] [ 5124] shutdown complete
+[Fri May 11 23:09:42.027 2018] [ 5123] watchdog: main process 5124 exited cleanly (exit code 0), shutting down
+[Fri May 11 23:09:43.099 2018] [ 5238] watchdog: main process 5239 forked ok
+[Fri May 11 23:09:43.100 2018] [ 5239] listening on all interfaces, port=3564
+[Fri May 11 23:09:43.108 2018] [ 5239] accepting connections
+[Fri May 11 23:15:07.951 2018] [ 5239] caught SIGTERM, shutting down
+[Fri May 11 23:15:11.073 2018] [ 5239] shutdown complete
+[Fri May 11 23:15:11.075 2018] [ 5238] watchdog: main process 5239 exited cleanly (exit code 0), shutting down
+[Fri May 11 23:15:12.053 2018] [ 5360] watchdog: main process 5361 forked ok
+[Fri May 11 23:15:12.055 2018] [ 5361] listening on all interfaces, port=3564
+[Fri May 11 23:15:12.059 2018] [ 5361] WARNING: index 'listing_core': preload: failed to open /home/mike/sharetribe/db/sphinx/production/listing_core.sph: No such file or directory; NOT SERVING
+[Fri May 11 23:15:12.060 2018] [ 5361] WARNING: index 'listing_delta': preload: failed to open /home/mike/sharetribe/db/sphinx/production/listing_delta.sph: No such file or directory; NOT SERVING
+[Fri May 11 23:15:12.060 2018] [ 5361] accepting connections
+[Fri May 11 23:16:01.069 2018] [ 5361] caught SIGTERM, shutting down
+[Fri May 11 23:16:01.143 2018] [ 5361] shutdown complete
+[Fri May 11 23:16:01.144 2018] [ 5360] watchdog: main process 5361 exited cleanly (exit code 0), shutting down
+[Fri May 11 23:16:02.095 2018] [ 5430] watchdog: main process 5431 forked ok
+[Fri May 11 23:16:02.097 2018] [ 5431] listening on all interfaces, port=3564
+[Fri May 11 23:16:02.100 2018] [ 5431] WARNING: index 'listing_core': preload: failed to open /home/mike/sharetribe/db/sphinx/production/listing_core.sph: No such file or directory; NOT SERVING
+[Fri May 11 23:16:02.100 2018] [ 5431] WARNING: index 'listing_delta': preload: failed to open /home/mike/sharetribe/db/sphinx/production/listing_delta.sph: No such file or directory; NOT SERVING
+[Fri May 11 23:16:02.100 2018] [ 5431] accepting connections
+[Sat May 12 12:30:34.325 2018] [ 5431] caught SIGTERM, shutting down
+[Sat May 12 12:30:34.451 2018] [ 5431] shutdown complete
+[Sat May 12 12:30:34.457 2018] [ 5430] watchdog: main process 5431 exited cleanly (exit code 0), shutting down
+[Sat May 12 12:30:35.379 2018] [15149] watchdog: main process 15150 forked ok
+[Sat May 12 12:30:35.385 2018] [15150] listening on all interfaces, port=3564
+[Sat May 12 12:30:35.390 2018] [15150] WARNING: index 'listing_core': preload: failed to open /home/mike/sharetribe/db/sphinx/production/listing_core.sph: No such file or directory; NOT SERVING
+[Sat May 12 12:30:35.390 2018] [15150] WARNING: index 'listing_delta': preload: failed to open /home/mike/sharetribe/db/sphinx/production/listing_delta.sph: No such file or directory; NOT SERVING
+[Sat May 12 12:30:35.391 2018] [15150] accepting connections
+[Sat May 12 12:38:59.516 2018] [15150] caught SIGTERM, shutting down
+[Sat May 12 12:38:59.610 2018] [15150] shutdown complete
+[Sat May 12 12:38:59.611 2018] [15149] watchdog: main process 15150 exited cleanly (exit code 0), shutting down
+[Sat May 12 12:39:00.468 2018] [15261] watchdog: main process 15262 forked ok
+[Sat May 12 12:39:00.471 2018] [15262] listening on all interfaces, port=3564
+[Sat May 12 12:39:00.475 2018] [15262] WARNING: index 'listing_core': preload: failed to open /home/mike/sharetribe/db/sphinx/production/listing_core.sph: No such file or directory; NOT SERVING
+[Sat May 12 12:39:00.475 2018] [15262] WARNING: index 'listing_delta': preload: failed to open /home/mike/sharetribe/db/sphinx/production/listing_delta.sph: No such file or directory; NOT SERVING
+[Sat May 12 12:39:00.476 2018] [15262] accepting connections
+[Sat May 12 12:42:24.884 2018] [15262] caught SIGTERM, shutting down
+[Sat May 12 12:42:24.921 2018] [15262] shutdown complete
+[Sat May 12 12:42:24.924 2018] [15261] watchdog: main process 15262 exited cleanly (exit code 0), shutting down
+[Sat May 12 12:42:25.641 2018] [15403] watchdog: main process 15404 forked ok
+[Sat May 12 12:42:25.643 2018] [15404] listening on all interfaces, port=3564
+[Sat May 12 12:42:25.647 2018] [15404] WARNING: index 'listing_core': preload: failed to open /home/mike/sharetribe/db/sphinx/production/listing_core.sph: No such file or directory; NOT SERVING
+[Sat May 12 12:42:25.647 2018] [15404] WARNING: index 'listing_delta': preload: failed to open /home/mike/sharetribe/db/sphinx/production/listing_delta.sph: No such file or directory; NOT SERVING
+[Sat May 12 12:42:25.648 2018] [15404] accepting connections
+[Sat May 12 12:58:46.993 2018] [15404] caught SIGTERM, shutting down
+[Sat May 12 12:58:47.128 2018] [15404] shutdown complete
+[Sat May 12 12:58:47.130 2018] [15403] watchdog: main process 15404 exited cleanly (exit code 0), shutting down
+[Sat May 12 12:58:47.830 2018] [15581] watchdog: main process 15582 forked ok
+[Sat May 12 12:58:47.831 2018] [15582] listening on all interfaces, port=3564
+[Sat May 12 12:58:47.834 2018] [15582] WARNING: index 'listing_core': preload: failed to open /home/mike/sharetribe/db/sphinx/production/listing_core.sph: No such file or directory; NOT SERVING
+[Sat May 12 12:58:47.834 2018] [15582] WARNING: index 'listing_delta': preload: failed to open /home/mike/sharetribe/db/sphinx/production/listing_delta.sph: No such file or directory; NOT SERVING
+[Sat May 12 12:58:47.835 2018] [15582] accepting connections
+[Sat May 12 12:59:15.884 2018] [15582] caught SIGTERM, shutting down
+[Sat May 12 12:59:15.956 2018] [15582] shutdown complete
+[Sat May 12 12:59:15.958 2018] [15581] watchdog: main process 15582 exited cleanly (exit code 0), shutting down
+[Sat May 12 12:59:16.654 2018] [15626] watchdog: main process 15627 forked ok
+[Sat May 12 12:59:16.656 2018] [15627] listening on all interfaces, port=3564
+[Sat May 12 12:59:16.659 2018] [15627] WARNING: index 'listing_core': preload: failed to open /home/mike/sharetribe/db/sphinx/production/listing_core.sph: No such file or directory; NOT SERVING
+[Sat May 12 12:59:16.660 2018] [15627] WARNING: index 'listing_delta': preload: failed to open /home/mike/sharetribe/db/sphinx/production/listing_delta.sph: No such file or directory; NOT SERVING
+[Sat May 12 12:59:16.660 2018] [15627] accepting connections
+[Sat May 12 13:00:28.517 2018] [15627] caught SIGTERM, shutting down
+[Sat May 12 13:00:28.588 2018] [15627] shutdown complete
+[Sat May 12 13:00:28.590 2018] [15626] watchdog: main process 15627 exited cleanly (exit code 0), shutting down
+[Sat May 12 13:00:29.304 2018] [15717] watchdog: main process 15718 forked ok
+[Sat May 12 13:00:29.306 2018] [15718] listening on all interfaces, port=3564
+[Sat May 12 13:00:29.312 2018] [15718] accepting connections
+[Sat May 12 13:07:05.987 2018] [15718] caught SIGHUP (seamless=1, in queue=1)
+[Sat May 12 13:07:05.987 2018] [15718] caught SIGTERM, shutting down
+[Sat May 12 13:07:09.058 2018] [15718] shutdown complete
+[Sun May 13 00:16:41.533 2018] [ 4722] watchdog: main process 4723 forked ok
+[Sun May 13 00:16:41.536 2018] [ 4723] listening on all interfaces, port=3564
+[Sun May 13 00:16:41.553 2018] [ 4723] binlog: replaying log /home/mike/sharetribe/tmp/binlog/production/binlog.001
+[Sun May 13 00:16:41.553 2018] [ 4723] binlog: replay stats: 0 rows in 0 commits; 0 updates, 0 reconfigure; 0 indexes
+[Sun May 13 00:16:41.553 2018] [ 4723] binlog: finished replaying /home/mike/sharetribe/tmp/binlog/production/binlog.001; 0.0 MB in 0.000 sec
+[Sun May 13 00:16:41.553 2018] [ 4723] binlog: finished replaying total 1 in 0.000 sec
+[Sun May 13 00:16:41.557 2018] [ 4723] accepting connections
+[Sun May 13 14:17:28.368 2018] [ 4723] caught SIGTERM, shutting down
+[Sun May 13 14:17:29.567 2018] [ 4723] shutdown complete
+[Tue May 15 09:41:28.681 2018] [ 5268] watchdog: main process 5269 forked ok
+[Tue May 15 09:41:28.685 2018] [ 5269] listening on all interfaces, port=3564
+[Tue May 15 09:41:28.703 2018] [ 5269] binlog: replaying log /home/mike/sharetribe/tmp/binlog/production/binlog.001
+[Tue May 15 09:41:28.703 2018] [ 5269] binlog: replay stats: 0 rows in 0 commits; 0 updates, 0 reconfigure; 0 indexes
+[Tue May 15 09:41:28.703 2018] [ 5269] binlog: finished replaying /home/mike/sharetribe/tmp/binlog/production/binlog.001; 0.0 MB in 0.000 sec
+[Tue May 15 09:41:28.703 2018] [ 5269] binlog: replaying log /home/mike/sharetribe/tmp/binlog/production/binlog.001
+[Tue May 15 09:41:28.703 2018] [ 5269] binlog: replay stats: 0 rows in 0 commits; 0 updates, 0 reconfigure; 0 indexes
+[Tue May 15 09:41:28.703 2018] [ 5269] binlog: finished replaying /home/mike/sharetribe/tmp/binlog/production/binlog.001; 0.0 MB in 0.000 sec
+[Tue May 15 09:41:28.703 2018] [ 5269] binlog: finished replaying total 2 in 0.000 sec
+[Tue May 15 09:41:28.709 2018] [ 5269] accepting connections
+[Sun Jun  3 13:07:07.456 2018] [ 5269] caught SIGHUP (seamless=1, in queue=1)
+[Sun Jun  3 13:07:07.488 2018] [ 5269] rotating index 'listing_delta': started
+[Sun Jun  3 13:07:07.551 2018] [ 5269] WARNING: binlog: failed to unlink /home/mike/sharetribe/tmp/binlog/production/binlog.001: No such file or directory (remove it manually)
+[Sun Jun  3 13:07:07.555 2018] [ 5269] last message repeated 1 times
+[Sun Jun  3 13:07:07.555 2018] [ 5269] rotating index 'listing_delta': success
+[Sun Jun  3 13:07:07.593 2018] [ 5269] rotating index: all indexes done
+[Sun Jun  3 13:07:08.177 2018] [ 5269] caught SIGHUP (seamless=1, in queue=1)
+[Sun Jun  3 13:07:08.200 2018] [ 5269] rotating index 'custom_field_value_delta': started
+[Sun Jun  3 13:07:08.211 2018] [ 5269] rotating index 'custom_field_value_delta': success
+[Sun Jun  3 13:07:08.244 2018] [ 5269] rotating index: all indexes done
+[Sun Jun  3 13:07:10.186 2018] [ 5269] caught SIGHUP (seamless=1, in queue=1)
+[Sun Jun  3 13:07:10.217 2018] [ 5269] rotating index 'listing_delta': started
+[Sun Jun  3 13:07:10.219 2018] [ 5269] rotating index 'listing_delta': success
+[Sun Jun  3 13:07:10.220 2018] [ 5269] rotating index: all indexes done
+[Sun Jun  3 13:07:41.502 2018] [ 5269] caught SIGHUP (seamless=1, in queue=1)
+[Sun Jun  3 13:07:41.504 2018] [ 5269] rotating index 'custom_field_value_delta': started
+[Sun Jun  3 13:07:41.507 2018] [ 5269] rotating index 'custom_field_value_delta': success
+[Sun Jun  3 13:07:41.508 2018] [ 5269] rotating index: all indexes done
+[Tue Jun  5 02:56:48.473 2018] [ 5269] caught SIGHUP (seamless=1, in queue=1)
+[Tue Jun  5 02:56:48.513 2018] [ 5269] rotating index 'custom_field_value_delta': started
+[Tue Jun  5 02:56:48.537 2018] [ 5269] rotating index 'custom_field_value_delta': success
+[Tue Jun  5 02:56:48.574 2018] [ 5269] rotating index: all indexes done
+[Wed Jun  6 10:17:00.696 2018] [ 5269] caught SIGHUP (seamless=1, in queue=1)
+[Wed Jun  6 10:17:00.716 2018] [ 5269] rotating index 'listing_delta': started
+[Wed Jun  6 10:17:00.839 2018] [ 5269] rotating index 'listing_delta': success
+[Wed Jun  6 10:17:00.896 2018] [ 5269] rotating index: all indexes done
+[Wed Jun  6 10:17:02.035 2018] [ 5269] caught SIGHUP (seamless=1, in queue=1)
+[Wed Jun  6 10:17:02.059 2018] [ 5269] rotating index 'listing_delta': started
+[Wed Jun  6 10:17:02.097 2018] [ 5269] rotating index 'listing_delta': success
+[Wed Jun  6 10:17:02.097 2018] [ 5269] rotating index: all indexes done
+[Wed Jun  6 12:46:25.365 2018] [ 5269] caught SIGHUP (seamless=1, in queue=1)
+[Wed Jun  6 12:46:25.373 2018] [ 5269] rotating index 'listing_delta': started
+[Wed Jun  6 12:46:25.386 2018] [ 5269] rotating index 'listing_delta': success
+[Wed Jun  6 12:46:25.389 2018] [ 5269] rotating index: all indexes done
+[Wed Jun  6 12:52:18.203 2018] [ 5269] caught SIGHUP (seamless=1, in queue=1)
+[Wed Jun  6 12:52:18.224 2018] [ 5269] rotating index 'listing_delta': started
+[Wed Jun  6 12:52:18.237 2018] [ 5269] rotating index 'listing_delta': success
+[Wed Jun  6 12:52:18.237 2018] [ 5269] rotating index: all indexes done
+[Thu Jun  7 12:30:20.055 2018] [ 5269] caught SIGHUP (seamless=1, in queue=1)
+[Thu Jun  7 12:30:20.105 2018] [ 5269] rotating index 'listing_delta': started
+[Thu Jun  7 12:30:20.165 2018] [ 5269] rotating index 'listing_delta': success
+[Thu Jun  7 12:30:20.179 2018] [ 5269] rotating index: all indexes done

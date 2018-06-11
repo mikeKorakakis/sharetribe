@@ -383,6 +383,8 @@ function initialize_update_profile_info_form(locale, person_id, name_required) {
       "person[given_name]": {required: name_required, maxlength: 30},
       "person[family_name]": {required: name_required, maxlength: 30},
       "person[phone_number]": {required: false, maxlength: 25},
+      "person[twitter_account]": {required: false, maxlength: 50},
+      "person[facebook_account]": {required: false, maxlength: 50},
       "person[image]": { accept: "(jpe?g|gif|png)" }
     },
     onkeyup: false,
@@ -394,7 +396,7 @@ function initialize_update_profile_info_form(locale, person_id, name_required) {
     }
   });
 }
-
+// added this
 function initialize_update_notification_settings_form(locale, person_id) {
   var form_id = "#edit_person_" + person_id;
   $(form_id).validate({

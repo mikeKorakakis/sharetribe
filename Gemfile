@@ -12,6 +12,10 @@ gem 'compass-rails', '~> 3.0.2'
 
 gem 'jquery-rails', '~> 4.3.1'
 
+
+gem 'geocomplete_rails'
+gem 'geocoder'
+
 # Bundle the extra gems:
 
 # gem 'heroku' install the Heroku toolbelt (https://toolbelt.heroku.com/) instead (as gem had some problems)
@@ -23,7 +27,7 @@ gem 'sass', '~> 3.4.24'
 gem 'rack-attack', '~> 5.0.1'
 gem 'rest-client', '~> 2.0.2'
 
-gem 'paperclip', '~> 5.1.0'
+gem 'paperclip', '~> 5.2.1'
 gem 'delayed_paperclip', '~> 3.0.1'
 
 gem 'aws-sdk', '~> 2.9.25'
